@@ -1,0 +1,646 @@
+app,case_id,target_id,band,mutation,selector_kind,resolver,outcome,strategy,heal_ms,target_text,resolved_text,source_file
+supabase-studio,P0000,T00,1,rename-class,class,brittle-only,false-heal,brittle,16,Connect,Help,chaos/res-sb-allresolvers.json
+supabase-studio,P0001,T00,2,rename-id-testid,class,brittle-only,false-heal,brittle,11,Connect,Help,chaos/res-sb-allresolvers.json
+supabase-studio,P0002,T00,3,restructure-dom,class,brittle-only,false-heal,brittle,11,Connect,Help,chaos/res-sb-allresolvers.json
+supabase-studio,P0003,T00,4,retext-sibling,class,brittle-only,false-heal,brittle,11,Connect,Help,chaos/res-sb-allresolvers.json
+supabase-studio,P0004,T00,5,attr-reorder-minify,class,brittle-only,false-heal,brittle,12,Connect,Help,chaos/res-sb-allresolvers.json
+supabase-studio,P0005,T01,1,rename-class,class,brittle-only,false-heal,brittle,14,Supabase Studio (CLI) Connect LATEST  Search...  ⌘K Help Advisor Center SQL Edit,Supabase Studio (CLI) Connect LATEST  Search...  ⌘K Help Advisor Center SQL Edit,chaos/res-sb-allresolvers.json
+supabase-studio,P0006,T01,2,rename-id-testid,class,brittle-only,false-heal,brittle,15,Supabase Studio (CLI) Connect LATEST  Search...  ⌘K Help Advisor Center SQL Edit,Supabase Studio (CLI) Connect LATEST  Search...  ⌘K Help Advisor Center SQL Edit,chaos/res-sb-allresolvers.json
+supabase-studio,P0007,T01,3,restructure-dom,class,brittle-only,false-heal,brittle,12,Supabase Studio (CLI) Connect LATEST  Search...  ⌘K Help Advisor Center SQL Edit,Supabase Studio (CLI) Connect LATEST  Search...  ⌘K Help Advisor Center SQL Edit,chaos/res-sb-allresolvers.json
+supabase-studio,P0008,T01,4,retext-sibling,class,brittle-only,false-heal,brittle,13,Supabase Studio (CLI) Connect LATEST  Search...  ⌘K Help Advisor Center SQL Edit,Supabase Studio (CLI) Connect LATEST  Search...  ⌘K Help Advisor Center SQL Edit,chaos/res-sb-allresolvers.json
+supabase-studio,P0009,T01,5,attr-reorder-minify,class,brittle-only,false-heal,brittle,15,Supabase Studio (CLI) Connect LATEST  Search...  ⌘K Help Advisor Center SQL Edit,Supabase Studio (CLI) Connect LATEST  Search...  ⌘K Help Advisor Center SQL Edit,chaos/res-sb-allresolvers.json
+supabase-studio,P0010,T02,1,rename-class,class,brittle-only,false-heal,brittle,10,Search...  ⌘K,Supabase Studio (CLI) http://127.0.0.1:54321 Copy,chaos/res-sb-allresolvers.json
+supabase-studio,P0011,T02,2,rename-id-testid,class,brittle-only,false-heal,brittle,10,Search...  ⌘K,Supabase Studio (CLI) http://127.0.0.1:54321 Copy,chaos/res-sb-allresolvers.json
+supabase-studio,P0012,T02,3,restructure-dom,class,brittle-only,false-heal,brittle,12,Search...  ⌘K,Supabase Studio (CLI) http://127.0.0.1:54321 Copy,chaos/res-sb-allresolvers.json
+supabase-studio,P0013,T02,4,retext-sibling,class,brittle-only,false-heal,brittle,12,Search...  ⌘K,Supabase Studio (CLI) http://127.0.0.1:54321 Copy,chaos/res-sb-allresolvers.json
+supabase-studio,P0014,T02,5,attr-reorder-minify,class,brittle-only,false-heal,brittle,11,Search...  ⌘K,Supabase Studio (CLI) http://127.0.0.1:54321 Copy,chaos/res-sb-allresolvers.json
+supabase-studio,P0015,T03,1,rename-class,id,brittle-only,miss,brittle,18,Help,,chaos/res-sb-allresolvers.json
+supabase-studio,P0016,T03,2,rename-id-testid,id,brittle-only,miss,brittle,14,Help,,chaos/res-sb-allresolvers.json
+supabase-studio,P0017,T03,3,restructure-dom,id,brittle-only,miss,brittle,12,Help,,chaos/res-sb-allresolvers.json
+supabase-studio,P0018,T03,4,retext-sibling,id,brittle-only,miss,brittle,17,Help,,chaos/res-sb-allresolvers.json
+supabase-studio,P0019,T03,5,attr-reorder-minify,id,brittle-only,miss,brittle,17,Help,,chaos/res-sb-allresolvers.json
+supabase-studio,P0020,T04,1,rename-class,id,brittle-only,miss,brittle,14,Advisor Center,,chaos/res-sb-allresolvers.json
+supabase-studio,P0021,T04,2,rename-id-testid,id,brittle-only,miss,brittle,15,Advisor Center,,chaos/res-sb-allresolvers.json
+supabase-studio,P0022,T04,3,restructure-dom,id,brittle-only,miss,brittle,14,Advisor Center,,chaos/res-sb-allresolvers.json
+supabase-studio,P0023,T04,4,retext-sibling,id,brittle-only,miss,brittle,9,Advisor Center,,chaos/res-sb-allresolvers.json
+supabase-studio,P0024,T04,5,attr-reorder-minify,id,brittle-only,miss,brittle,13,Advisor Center,,chaos/res-sb-allresolvers.json
+supabase-studio,P0025,T05,1,rename-class,id,brittle-only,miss,brittle,11,SQL Editor,,chaos/res-sb-allresolvers.json
+supabase-studio,P0026,T05,2,rename-id-testid,id,brittle-only,miss,brittle,12,SQL Editor,,chaos/res-sb-allresolvers.json
+supabase-studio,P0027,T05,3,restructure-dom,id,brittle-only,miss,brittle,11,SQL Editor,,chaos/res-sb-allresolvers.json
+supabase-studio,P0028,T05,4,retext-sibling,id,brittle-only,miss,brittle,12,SQL Editor,,chaos/res-sb-allresolvers.json
+supabase-studio,P0029,T05,5,attr-reorder-minify,id,brittle-only,miss,brittle,13,SQL Editor,,chaos/res-sb-allresolvers.json
+supabase-studio,P0030,T06,1,rename-class,id,brittle-only,miss,brittle,11,AI Assistant,,chaos/res-sb-allresolvers.json
+supabase-studio,P0031,T06,2,rename-id-testid,id,brittle-only,miss,brittle,13,AI Assistant,,chaos/res-sb-allresolvers.json
+supabase-studio,P0032,T06,3,restructure-dom,id,brittle-only,miss,brittle,14,AI Assistant,,chaos/res-sb-allresolvers.json
+supabase-studio,P0033,T06,4,retext-sibling,id,brittle-only,miss,brittle,14,AI Assistant,,chaos/res-sb-allresolvers.json
+supabase-studio,P0034,T06,5,attr-reorder-minify,id,brittle-only,miss,brittle,10,AI Assistant,,chaos/res-sb-allresolvers.json
+supabase-studio,P0035,T07,1,rename-class,id,brittle-only,miss,brittle,12,Settings,,chaos/res-sb-allresolvers.json
+supabase-studio,P0036,T07,2,rename-id-testid,id,brittle-only,miss,brittle,14,Settings,,chaos/res-sb-allresolvers.json
+supabase-studio,P0037,T07,3,restructure-dom,id,brittle-only,miss,brittle,16,Settings,,chaos/res-sb-allresolvers.json
+supabase-studio,P0038,T07,4,retext-sibling,id,brittle-only,miss,brittle,14,Settings,,chaos/res-sb-allresolvers.json
+supabase-studio,P0039,T07,5,attr-reorder-minify,id,brittle-only,miss,brittle,9,Settings,,chaos/res-sb-allresolvers.json
+supabase-studio,P0040,T08,1,rename-class,class,brittle-only,false-heal,brittle,21,Project Overview,Table Editor,chaos/res-sb-allresolvers.json
+supabase-studio,P0041,T08,2,rename-id-testid,class,brittle-only,false-heal,brittle,18,Project Overview,Table Editor,chaos/res-sb-allresolvers.json
+supabase-studio,P0042,T08,3,restructure-dom,class,brittle-only,false-heal,brittle,18,Project Overview,Table Editor,chaos/res-sb-allresolvers.json
+supabase-studio,P0043,T08,4,retext-sibling,class,brittle-only,false-heal,brittle,16,Project Overview,Table Editor,chaos/res-sb-allresolvers.json
+supabase-studio,P0044,T08,5,attr-reorder-minify,class,brittle-only,false-heal,brittle,18,Project Overview,Table Editor,chaos/res-sb-allresolvers.json
+supabase-studio,P0045,T09,1,rename-class,id,brittle-only,target-missing,,,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0046,T09,2,rename-id-testid,id,brittle-only,target-missing,,,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0047,T09,3,restructure-dom,id,brittle-only,target-missing,,,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0048,T09,4,retext-sibling,id,brittle-only,miss,brittle,16,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0049,T09,5,attr-reorder-minify,id,brittle-only,target-missing,,,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0050,T10,1,rename-class,id,brittle-only,target-missing,,,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0051,T10,2,rename-id-testid,id,brittle-only,target-missing,,,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0052,T10,3,restructure-dom,id,brittle-only,target-missing,,,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0053,T10,4,retext-sibling,id,brittle-only,target-missing,,,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0054,T10,5,attr-reorder-minify,id,brittle-only,target-missing,,,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0055,T11,1,rename-class,class,brittle-only,false-heal,brittle,19,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0056,T11,2,rename-id-testid,class,brittle-only,false-heal,brittle,19,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0057,T11,3,restructure-dom,class,brittle-only,false-heal,brittle,17,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0058,T11,4,retext-sibling,class,brittle-only,false-heal,brittle,19,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0059,T11,5,attr-reorder-minify,class,brittle-only,false-heal,brittle,16,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0060,T12,1,rename-class,class,brittle-only,false-heal,brittle,16,,Connect,chaos/res-sb-allresolvers.json
+supabase-studio,P0061,T12,2,rename-id-testid,class,brittle-only,false-heal,brittle,16,,Connect,chaos/res-sb-allresolvers.json
+supabase-studio,P0062,T12,3,restructure-dom,class,brittle-only,false-heal,brittle,13,,Connect,chaos/res-sb-allresolvers.json
+supabase-studio,P0063,T12,4,retext-sibling,class,brittle-only,false-heal,brittle,14,,Connect,chaos/res-sb-allresolvers.json
+supabase-studio,P0064,T12,5,attr-reorder-minify,class,brittle-only,false-heal,brittle,14,,Connect,chaos/res-sb-allresolvers.json
+supabase-studio,P0000,T00,1,rename-class,class,text-role,false-heal,text-role,1,Connect,Connect,chaos/res-sb-allresolvers.json
+supabase-studio,P0001,T00,2,rename-id-testid,class,text-role,false-heal,text-role,1,Connect,Connect,chaos/res-sb-allresolvers.json
+supabase-studio,P0002,T00,3,restructure-dom,class,text-role,false-heal,text-role,1,Connect,Connect,chaos/res-sb-allresolvers.json
+supabase-studio,P0003,T00,4,retext-sibling,class,text-role,false-heal,text-role,1,Connect,Connect,chaos/res-sb-allresolvers.json
+supabase-studio,P0004,T00,5,attr-reorder-minify,class,text-role,false-heal,text-role,1,Connect,Connect,chaos/res-sb-allresolvers.json
+supabase-studio,P0005,T01,1,rename-class,class,text-role,miss,text-role,2,Supabase Studio (CLI) Connect LATEST  Search...  ⌘K Help Advisor Center SQL Edit,,chaos/res-sb-allresolvers.json
+supabase-studio,P0006,T01,2,rename-id-testid,class,text-role,miss,text-role,1,Supabase Studio (CLI) Connect LATEST  Search...  ⌘K Help Advisor Center SQL Edit,,chaos/res-sb-allresolvers.json
+supabase-studio,P0007,T01,3,restructure-dom,class,text-role,miss,text-role,1,Supabase Studio (CLI) Connect LATEST  Search...  ⌘K Help Advisor Center SQL Edit,,chaos/res-sb-allresolvers.json
+supabase-studio,P0008,T01,4,retext-sibling,class,text-role,miss,text-role,2,Supabase Studio (CLI) Connect LATEST  Search...  ⌘K Help Advisor Center SQL Edit,,chaos/res-sb-allresolvers.json
+supabase-studio,P0009,T01,5,attr-reorder-minify,class,text-role,miss,text-role,1,Supabase Studio (CLI) Connect LATEST  Search...  ⌘K Help Advisor Center SQL Edit,,chaos/res-sb-allresolvers.json
+supabase-studio,P0010,T02,1,rename-class,class,text-role,success,text-role,1,Search...  ⌘K,Search...  ⌘K,chaos/res-sb-allresolvers.json
+supabase-studio,P0011,T02,2,rename-id-testid,class,text-role,success,text-role,1,Search...  ⌘K,Search...  ⌘K,chaos/res-sb-allresolvers.json
+supabase-studio,P0012,T02,3,restructure-dom,class,text-role,false-heal,text-role,1,Search...  ⌘K,Search...  ⌘K,chaos/res-sb-allresolvers.json
+supabase-studio,P0013,T02,4,retext-sibling,class,text-role,success,text-role,1,Search...  ⌘K,Search...  ⌘K,chaos/res-sb-allresolvers.json
+supabase-studio,P0014,T02,5,attr-reorder-minify,class,text-role,success,text-role,1,Search...  ⌘K,Search...  ⌘K,chaos/res-sb-allresolvers.json
+supabase-studio,P0015,T03,1,rename-class,id,text-role,success,text-role,2,Help,Help,chaos/res-sb-allresolvers.json
+supabase-studio,P0016,T03,2,rename-id-testid,id,text-role,success,text-role,2,Help,Help,chaos/res-sb-allresolvers.json
+supabase-studio,P0017,T03,3,restructure-dom,id,text-role,false-heal,text-role,3,Help,Help,chaos/res-sb-allresolvers.json
+supabase-studio,P0018,T03,4,retext-sibling,id,text-role,success,text-role,3,Help,Help,chaos/res-sb-allresolvers.json
+supabase-studio,P0019,T03,5,attr-reorder-minify,id,text-role,success,text-role,2,Help,Help,chaos/res-sb-allresolvers.json
+supabase-studio,P0020,T04,1,rename-class,id,text-role,false-heal,text-role,2,Advisor Center,Advisor Center,chaos/res-sb-allresolvers.json
+supabase-studio,P0021,T04,2,rename-id-testid,id,text-role,false-heal,text-role,1,Advisor Center,Advisor Center,chaos/res-sb-allresolvers.json
+supabase-studio,P0022,T04,3,restructure-dom,id,text-role,false-heal,text-role,2,Advisor Center,Advisor Center,chaos/res-sb-allresolvers.json
+supabase-studio,P0023,T04,4,retext-sibling,id,text-role,success,text-role,2,Advisor Center,Advisor Center,chaos/res-sb-allresolvers.json
+supabase-studio,P0024,T04,5,attr-reorder-minify,id,text-role,false-heal,text-role,2,Advisor Center,Advisor Center,chaos/res-sb-allresolvers.json
+supabase-studio,P0025,T05,1,rename-class,id,text-role,success,text-role,2,SQL Editor,SQL Editor,chaos/res-sb-allresolvers.json
+supabase-studio,P0026,T05,2,rename-id-testid,id,text-role,success,text-role,3,SQL Editor,SQL Editor,chaos/res-sb-allresolvers.json
+supabase-studio,P0027,T05,3,restructure-dom,id,text-role,false-heal,text-role,2,SQL Editor,SQL Editor,chaos/res-sb-allresolvers.json
+supabase-studio,P0028,T05,4,retext-sibling,id,text-role,success,text-role,2,SQL Editor,SQL Editor,chaos/res-sb-allresolvers.json
+supabase-studio,P0029,T05,5,attr-reorder-minify,id,text-role,success,text-role,2,SQL Editor,SQL Editor,chaos/res-sb-allresolvers.json
+supabase-studio,P0030,T06,1,rename-class,id,text-role,success,text-role,2,AI Assistant,AI Assistant,chaos/res-sb-allresolvers.json
+supabase-studio,P0031,T06,2,rename-id-testid,id,text-role,success,text-role,2,AI Assistant,AI Assistant,chaos/res-sb-allresolvers.json
+supabase-studio,P0032,T06,3,restructure-dom,id,text-role,false-heal,text-role,2,AI Assistant,AI Assistant,chaos/res-sb-allresolvers.json
+supabase-studio,P0033,T06,4,retext-sibling,id,text-role,success,text-role,2,AI Assistant,AI Assistant,chaos/res-sb-allresolvers.json
+supabase-studio,P0034,T06,5,attr-reorder-minify,id,text-role,success,text-role,2,AI Assistant,AI Assistant,chaos/res-sb-allresolvers.json
+supabase-studio,P0035,T07,1,rename-class,id,text-role,false-heal,text-role,3,Settings,Settings,chaos/res-sb-allresolvers.json
+supabase-studio,P0036,T07,2,rename-id-testid,id,text-role,false-heal,text-role,2,Settings,Settings,chaos/res-sb-allresolvers.json
+supabase-studio,P0037,T07,3,restructure-dom,id,text-role,false-heal,text-role,2,Settings,Settings,chaos/res-sb-allresolvers.json
+supabase-studio,P0038,T07,4,retext-sibling,id,text-role,success,text-role,2,Settings,Settings,chaos/res-sb-allresolvers.json
+supabase-studio,P0039,T07,5,attr-reorder-minify,id,text-role,success,text-role,2,Settings,Settings,chaos/res-sb-allresolvers.json
+supabase-studio,P0040,T08,1,rename-class,class,text-role,false-heal,text-role,1,Project Overview,Project Overview,chaos/res-sb-allresolvers.json
+supabase-studio,P0041,T08,2,rename-id-testid,class,text-role,false-heal,text-role,1,Project Overview,Project Overview,chaos/res-sb-allresolvers.json
+supabase-studio,P0042,T08,3,restructure-dom,class,text-role,false-heal,text-role,1,Project Overview,Project Overview,chaos/res-sb-allresolvers.json
+supabase-studio,P0043,T08,4,retext-sibling,class,text-role,false-heal,text-role,1,Project Overview,Project Overview,chaos/res-sb-allresolvers.json
+supabase-studio,P0044,T08,5,attr-reorder-minify,class,text-role,false-heal,text-role,1,Project Overview,Project Overview,chaos/res-sb-allresolvers.json
+supabase-studio,P0045,T09,1,rename-class,id,text-role,target-missing,,,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0046,T09,2,rename-id-testid,id,text-role,target-missing,,,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0047,T09,3,restructure-dom,id,text-role,target-missing,,,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0048,T09,4,retext-sibling,id,text-role,false-heal,text-role,3,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0049,T09,5,attr-reorder-minify,id,text-role,target-missing,,,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0050,T10,1,rename-class,id,text-role,target-missing,,,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0051,T10,2,rename-id-testid,id,text-role,target-missing,,,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0052,T10,3,restructure-dom,id,text-role,target-missing,,,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0053,T10,4,retext-sibling,id,text-role,target-missing,,,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0054,T10,5,attr-reorder-minify,id,text-role,target-missing,,,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0055,T11,1,rename-class,class,text-role,false-heal,text-role,1,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0056,T11,2,rename-id-testid,class,text-role,false-heal,text-role,1,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0057,T11,3,restructure-dom,class,text-role,false-heal,text-role,1,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0058,T11,4,retext-sibling,class,text-role,false-heal,text-role,1,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0059,T11,5,attr-reorder-minify,class,text-role,false-heal,text-role,1,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0060,T12,1,rename-class,class,text-role,false-heal,text-role,1,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0061,T12,2,rename-id-testid,class,text-role,false-heal,text-role,1,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0062,T12,3,restructure-dom,class,text-role,false-heal,text-role,1,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0063,T12,4,retext-sibling,class,text-role,false-heal,text-role,1,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0064,T12,5,attr-reorder-minify,class,text-role,false-heal,text-role,1,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0000,T00,1,rename-class,class,llm-claude-sonnet-4-6,success,dom-healer,5315,Connect,Connect,chaos/res-sb-allresolvers.json
+supabase-studio,P0001,T00,2,rename-id-testid,class,llm-claude-sonnet-4-6,success,dom-healer,6596,Connect,Connect,chaos/res-sb-allresolvers.json
+supabase-studio,P0002,T00,3,restructure-dom,class,llm-claude-sonnet-4-6,success,dom-healer,4805,Connect,Connect,chaos/res-sb-allresolvers.json
+supabase-studio,P0003,T00,4,retext-sibling,class,llm-claude-sonnet-4-6,success,dom-healer,4886,Connect,Connect,chaos/res-sb-allresolvers.json
+supabase-studio,P0004,T00,5,attr-reorder-minify,class,llm-claude-sonnet-4-6,success,dom-healer,5691,Connect,Connect,chaos/res-sb-allresolvers.json
+supabase-studio,P0005,T01,1,rename-class,class,llm-claude-sonnet-4-6,false-heal,dom-healer,9925,Supabase Studio (CLI) Connect LATEST  Search...  ⌘K Help Advisor Center SQL Edit,,chaos/res-sb-allresolvers.json
+supabase-studio,P0006,T01,2,rename-id-testid,class,llm-claude-sonnet-4-6,false-heal,dom-healer,12111,Supabase Studio (CLI) Connect LATEST  Search...  ⌘K Help Advisor Center SQL Edit,,chaos/res-sb-allresolvers.json
+supabase-studio,P0007,T01,3,restructure-dom,class,llm-claude-sonnet-4-6,miss,dom-healer-none,5327,Supabase Studio (CLI) Connect LATEST  Search...  ⌘K Help Advisor Center SQL Edit,,chaos/res-sb-allresolvers.json
+supabase-studio,P0008,T01,4,retext-sibling,class,llm-claude-sonnet-4-6,false-heal,dom-healer,8167,Supabase Studio (CLI) Connect LATEST  Search...  ⌘K Help Advisor Center SQL Edit,,chaos/res-sb-allresolvers.json
+supabase-studio,P0009,T01,5,attr-reorder-minify,class,llm-claude-sonnet-4-6,false-heal,dom-healer,7787,Supabase Studio (CLI) Connect LATEST  Search...  ⌘K Help Advisor Center SQL Edit,,chaos/res-sb-allresolvers.json
+supabase-studio,P0010,T02,1,rename-class,class,llm-claude-sonnet-4-6,success,dom-healer,4521,Search...  ⌘K,Search...  ⌘K,chaos/res-sb-allresolvers.json
+supabase-studio,P0011,T02,2,rename-id-testid,class,llm-claude-sonnet-4-6,success,dom-healer,4785,Search...  ⌘K,Search...  ⌘K,chaos/res-sb-allresolvers.json
+supabase-studio,P0012,T02,3,restructure-dom,class,llm-claude-sonnet-4-6,success,dom-healer,4998,Search...  ⌘K,Search...  ⌘K,chaos/res-sb-allresolvers.json
+supabase-studio,P0013,T02,4,retext-sibling,class,llm-claude-sonnet-4-6,success,dom-healer,5109,Search...  ⌘K,Search...  ⌘K,chaos/res-sb-allresolvers.json
+supabase-studio,P0014,T02,5,attr-reorder-minify,class,llm-claude-sonnet-4-6,success,dom-healer,4699,Search...  ⌘K,Search...  ⌘K,chaos/res-sb-allresolvers.json
+supabase-studio,P0015,T03,1,rename-class,id,llm-claude-sonnet-4-6,success,dom-healer,4455,Help,Help,chaos/res-sb-allresolvers.json
+supabase-studio,P0016,T03,2,rename-id-testid,id,llm-claude-sonnet-4-6,success,dom-healer,4817,Help,Help,chaos/res-sb-allresolvers.json
+supabase-studio,P0017,T03,3,restructure-dom,id,llm-claude-sonnet-4-6,success,dom-healer,4493,Help,Help,chaos/res-sb-allresolvers.json
+supabase-studio,P0018,T03,4,retext-sibling,id,llm-claude-sonnet-4-6,success,dom-healer,4388,Help,Help,chaos/res-sb-allresolvers.json
+supabase-studio,P0019,T03,5,attr-reorder-minify,id,llm-claude-sonnet-4-6,success,dom-healer,4939,Help,Help,chaos/res-sb-allresolvers.json
+supabase-studio,P0020,T04,1,rename-class,id,llm-claude-sonnet-4-6,success,dom-healer,5103,Advisor Center,Advisor Center,chaos/res-sb-allresolvers.json
+supabase-studio,P0021,T04,2,rename-id-testid,id,llm-claude-sonnet-4-6,success,dom-healer,5488,Advisor Center,Advisor Center,chaos/res-sb-allresolvers.json
+supabase-studio,P0022,T04,3,restructure-dom,id,llm-claude-sonnet-4-6,success,dom-healer,5245,Advisor Center,Advisor Center,chaos/res-sb-allresolvers.json
+supabase-studio,P0023,T04,4,retext-sibling,id,llm-claude-sonnet-4-6,success,dom-healer,4932,Advisor Center,Advisor Center,chaos/res-sb-allresolvers.json
+supabase-studio,P0024,T04,5,attr-reorder-minify,id,llm-claude-sonnet-4-6,success,dom-healer,4565,Advisor Center,Advisor Center,chaos/res-sb-allresolvers.json
+supabase-studio,P0025,T05,1,rename-class,id,llm-claude-sonnet-4-6,success,dom-healer,4532,SQL Editor,SQL Editor,chaos/res-sb-allresolvers.json
+supabase-studio,P0026,T05,2,rename-id-testid,id,llm-claude-sonnet-4-6,false-heal,dom-healer,4569,SQL Editor,SQL Editor,chaos/res-sb-allresolvers.json
+supabase-studio,P0027,T05,3,restructure-dom,id,llm-claude-sonnet-4-6,false-heal,dom-healer,11032,SQL Editor,SQL Editor,chaos/res-sb-allresolvers.json
+supabase-studio,P0028,T05,4,retext-sibling,id,llm-claude-sonnet-4-6,false-heal,dom-healer,7718,SQL Editor,SQL Editor,chaos/res-sb-allresolvers.json
+supabase-studio,P0029,T05,5,attr-reorder-minify,id,llm-claude-sonnet-4-6,false-heal,dom-healer,5352,SQL Editor,SQL Editor,chaos/res-sb-allresolvers.json
+supabase-studio,P0030,T06,1,rename-class,id,llm-claude-sonnet-4-6,success,dom-healer,5095,AI Assistant,AI Assistant,chaos/res-sb-allresolvers.json
+supabase-studio,P0031,T06,2,rename-id-testid,id,llm-claude-sonnet-4-6,success,dom-healer,4642,AI Assistant,AI Assistant,chaos/res-sb-allresolvers.json
+supabase-studio,P0032,T06,3,restructure-dom,id,llm-claude-sonnet-4-6,success,dom-healer,4517,AI Assistant,AI Assistant,chaos/res-sb-allresolvers.json
+supabase-studio,P0033,T06,4,retext-sibling,id,llm-claude-sonnet-4-6,success,dom-healer,5163,AI Assistant,AI Assistant,chaos/res-sb-allresolvers.json
+supabase-studio,P0034,T06,5,attr-reorder-minify,id,llm-claude-sonnet-4-6,success,dom-healer,7200,AI Assistant,AI Assistant,chaos/res-sb-allresolvers.json
+supabase-studio,P0035,T07,1,rename-class,id,llm-claude-sonnet-4-6,false-heal,dom-healer,4760,Settings,Settings,chaos/res-sb-allresolvers.json
+supabase-studio,P0036,T07,2,rename-id-testid,id,llm-claude-sonnet-4-6,false-heal,dom-healer,2503,Settings,Settings,chaos/res-sb-allresolvers.json
+supabase-studio,P0037,T07,3,restructure-dom,id,llm-claude-sonnet-4-6,false-heal,dom-healer,2602,Settings,Settings,chaos/res-sb-allresolvers.json
+supabase-studio,P0038,T07,4,retext-sibling,id,llm-claude-sonnet-4-6,success,dom-healer,4781,Settings,Settings,chaos/res-sb-allresolvers.json
+supabase-studio,P0039,T07,5,attr-reorder-minify,id,llm-claude-sonnet-4-6,success,dom-healer,2576,Settings,Settings,chaos/res-sb-allresolvers.json
+supabase-studio,P0040,T08,1,rename-class,class,llm-claude-sonnet-4-6,success,dom-healer,3440,Project Overview,Project Overview,chaos/res-sb-allresolvers.json
+supabase-studio,P0041,T08,2,rename-id-testid,class,llm-claude-sonnet-4-6,success,dom-healer,3408,Project Overview,Project Overview,chaos/res-sb-allresolvers.json
+supabase-studio,P0042,T08,3,restructure-dom,class,llm-claude-sonnet-4-6,success,dom-healer,2715,Project Overview,Project Overview,chaos/res-sb-allresolvers.json
+supabase-studio,P0043,T08,4,retext-sibling,class,llm-claude-sonnet-4-6,success,dom-healer,2653,Project Overview,Project Overview,chaos/res-sb-allresolvers.json
+supabase-studio,P0044,T08,5,attr-reorder-minify,class,llm-claude-sonnet-4-6,success,dom-healer,6340,Project Overview,Project Overview,chaos/res-sb-allresolvers.json
+supabase-studio,P0045,T09,1,rename-class,id,llm-claude-sonnet-4-6,target-missing,,,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0046,T09,2,rename-id-testid,id,llm-claude-sonnet-4-6,target-missing,,,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0047,T09,3,restructure-dom,id,llm-claude-sonnet-4-6,target-missing,,,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0048,T09,4,retext-sibling,id,llm-claude-sonnet-4-6,success,dom-healer,2997,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0049,T09,5,attr-reorder-minify,id,llm-claude-sonnet-4-6,target-missing,,,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0050,T10,1,rename-class,id,llm-claude-sonnet-4-6,target-missing,,,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0051,T10,2,rename-id-testid,id,llm-claude-sonnet-4-6,target-missing,,,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0052,T10,3,restructure-dom,id,llm-claude-sonnet-4-6,target-missing,,,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0053,T10,4,retext-sibling,id,llm-claude-sonnet-4-6,target-missing,,,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0054,T10,5,attr-reorder-minify,id,llm-claude-sonnet-4-6,target-missing,,,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0055,T11,1,rename-class,class,llm-claude-sonnet-4-6,miss,dom-healer-none,11599,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0056,T11,2,rename-id-testid,class,llm-claude-sonnet-4-6,miss,dom-healer-none,7888,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0057,T11,3,restructure-dom,class,llm-claude-sonnet-4-6,false-heal,dom-healer,11551,,Connect,chaos/res-sb-allresolvers.json
+supabase-studio,P0058,T11,4,retext-sibling,class,llm-claude-sonnet-4-6,false-heal,dom-healer,8394,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0059,T11,5,attr-reorder-minify,class,llm-claude-sonnet-4-6,miss,dom-healer-none,5991,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0060,T12,1,rename-class,class,llm-claude-sonnet-4-6,false-heal,dom-healer,2563,,Connect,chaos/res-sb-allresolvers.json
+supabase-studio,P0061,T12,2,rename-id-testid,class,llm-claude-sonnet-4-6,false-heal,dom-healer,11558,,Connect,chaos/res-sb-allresolvers.json
+supabase-studio,P0062,T12,3,restructure-dom,class,llm-claude-sonnet-4-6,miss,dom-healer-none,5585,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0063,T12,4,retext-sibling,class,llm-claude-sonnet-4-6,miss,dom-healer-none,15751,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0064,T12,5,attr-reorder-minify,class,llm-claude-sonnet-4-6,success,dom-healer,8196,,,chaos/res-sb-allresolvers.json
+supabase-studio,P0000,T00,1,rename-class,class,healenium-3.5.1,false-heal,healenium,55,Connect,Help,chaos/res-sb-healenium.json
+supabase-studio,P0001,T00,2,rename-id-testid,class,healenium-3.5.1,false-heal,healenium,60,Connect,Help,chaos/res-sb-healenium.json
+supabase-studio,P0002,T00,3,restructure-dom,class,healenium-3.5.1,false-heal,healenium,61,Connect,Help,chaos/res-sb-healenium.json
+supabase-studio,P0003,T00,4,retext-sibling,class,healenium-3.5.1,false-heal,healenium,56,Connect,Help,chaos/res-sb-healenium.json
+supabase-studio,P0004,T00,5,attr-reorder-minify,class,healenium-3.5.1,false-heal,healenium,62,Connect,Help,chaos/res-sb-healenium.json
+supabase-studio,P0005,T01,1,rename-class,class,healenium-3.5.1,false-heal,healenium,110,Supabase Studio (CLI) Connect LATEST  Search...  ⌘K Help Advisor Center SQL Edit,"Supabase Studio (CLI) Connect LATEST Search... Ctrl K Help Advisor Center SQL Editor AI Assistant Settings Supabase Studio (CLI) http://127.0.0.1:54321 Copy Get connected Framework Use a client library Direct Connection string ORM Third-party library MCP Connect your agent API Keys Manage project keys Advisor found 5 issues Ask Assistant SECURITY CRITICAL RLS Disabled in Public Table public.[redacted] is public, but RLS has not been enabled. SECURITY CRITICAL RLS Disabled in Public Table public.[redacted] is public, but RLS has not been enabled. RLS Disabled in Public Table is public, but RLS has not been enabled. View 1 more issue in Advisor",chaos/res-sb-healenium.json
+supabase-studio,P0006,T01,2,rename-id-testid,class,healenium-3.5.1,false-heal,healenium,93,Supabase Studio (CLI) Connect LATEST  Search...  ⌘K Help Advisor Center SQL Edit,"Supabase Studio (CLI) Connect LATEST Search... Ctrl K Help Advisor Center SQL Editor AI Assistant Settings Supabase Studio (CLI) http://127.0.0.1:54321 Copy Get connected Framework Use a client library Direct Connection string ORM Third-party library MCP Connect your agent API Keys Manage project keys Advisor found 5 issues Ask Assistant SECURITY CRITICAL RLS Disabled in Public Table public.[redacted] is public, but RLS has not been enabled. SECURITY CRITICAL RLS Disabled in Public Table public.[redacted] is public, but RLS has not been enabled. RLS Disabled in Public Table is public, but RLS has not been enabled. View 1 more issue in Advisor",chaos/res-sb-healenium.json
+supabase-studio,P0007,T01,3,restructure-dom,class,healenium-3.5.1,false-heal,healenium,97,Supabase Studio (CLI) Connect LATEST  Search...  ⌘K Help Advisor Center SQL Edit,"Supabase Studio (CLI) Connect LATEST Search... Ctrl K Help Advisor Center SQL Editor AI Assistant Settings Supabase Studio (CLI) http://127.0.0.1:54321 Copy Get connected Framework Use a client library Direct Connection string ORM Third-party library MCP Connect your agent API Keys Manage project keys Advisor found 5 issues Ask Assistant SECURITY CRITICAL RLS Disabled in Public Table public.[redacted] is public, but RLS has not been enabled. SECURITY CRITICAL RLS Disabled in Public Table public.[redacted] is public, but RLS has not been enabled. RLS Disabled in Public Table is public, but RLS has not been enabled. View 1 more issue in Advisor",chaos/res-sb-healenium.json
+supabase-studio,P0008,T01,4,retext-sibling,class,healenium-3.5.1,false-heal,healenium,97,Supabase Studio (CLI) Connect LATEST  Search...  ⌘K Help Advisor Center SQL Edit,"Supabase Studio (CLI) Connect LATEST Search... Ctrl K Help Advisor Center SQL Editor AI Assistant Settings Supabase Studio (CLI) http://127.0.0.1:54321 Copy Get connected Framework Use a client library Direct Connection string ORM Third-party library MCP Connect your agent API Keys Manage project keys Advisor found 5 issues Ask Assistant SECURITY CRITICAL RLS Disabled in Public Table public.[redacted] is public, but RLS has not been enabled. SECURITY CRITICAL RLS Disabled in Public Table public.[redacted] is public, but RLS has not been enabled. RLS Disabled in Public Table is public, but RLS has not been enabled. View 1 more issue in Advisor",chaos/res-sb-healenium.json
+supabase-studio,P0009,T01,5,attr-reorder-minify,class,healenium-3.5.1,false-heal,healenium,95,Supabase Studio (CLI) Connect LATEST  Search...  ⌘K Help Advisor Center SQL Edit,"Supabase Studio (CLI) Connect LATEST Search... Ctrl K Help Advisor Center SQL Editor AI Assistant Settings Supabase Studio (CLI) http://127.0.0.1:54321 Copy Get connected Framework Use a client library Direct Connection string ORM Third-party library MCP Connect your agent API Keys Manage project keys Advisor found 5 issues Ask Assistant SECURITY CRITICAL RLS Disabled in Public Table public.[redacted] is public, but RLS has not been enabled. SECURITY CRITICAL RLS Disabled in Public Table public.[redacted] is public, but RLS has not been enabled. RLS Disabled in Public Table is public, but RLS has not been enabled. View 1 more issue in Advisor",chaos/res-sb-healenium.json
+supabase-studio,P0010,T02,1,rename-class,class,healenium-3.5.1,false-heal,healenium,54,Search...  ⌘K,Supabase Studio (CLI) http://127.0.0.1:54321 Copy,chaos/res-sb-healenium.json
+supabase-studio,P0011,T02,2,rename-id-testid,class,healenium-3.5.1,false-heal,healenium,58,Search...  ⌘K,Supabase Studio (CLI) http://127.0.0.1:54321 Copy,chaos/res-sb-healenium.json
+supabase-studio,P0012,T02,3,restructure-dom,class,healenium-3.5.1,false-heal,healenium,57,Search...  ⌘K,Supabase Studio (CLI) http://127.0.0.1:54321 Copy,chaos/res-sb-healenium.json
+supabase-studio,P0013,T02,4,retext-sibling,class,healenium-3.5.1,false-heal,healenium,59,Search...  ⌘K,Supabase Studio (CLI) http://127.0.0.1:54321 Copy,chaos/res-sb-healenium.json
+supabase-studio,P0014,T02,5,attr-reorder-minify,class,healenium-3.5.1,false-heal,healenium,58,Search...  ⌘K,Supabase Studio (CLI) http://127.0.0.1:54321 Copy,chaos/res-sb-healenium.json
+supabase-studio,P0015,T03,1,rename-class,id,healenium-3.5.1,false-heal,healenium,310,Help,AI Assistant,chaos/res-sb-healenium.json
+supabase-studio,P0016,T03,2,rename-id-testid,id,healenium-3.5.1,false-heal,healenium,287,Help,AI Assistant,chaos/res-sb-healenium.json
+supabase-studio,P0017,T03,3,restructure-dom,id,healenium-3.5.1,false-heal,healenium,265,Help,AI Assistant,chaos/res-sb-healenium.json
+supabase-studio,P0018,T03,4,retext-sibling,id,healenium-3.5.1,false-heal,healenium,270,Help,AI Assistant,chaos/res-sb-healenium.json
+supabase-studio,P0019,T03,5,attr-reorder-minify,id,healenium-3.5.1,false-heal,healenium,297,Help,AI Assistant,chaos/res-sb-healenium.json
+supabase-studio,P0020,T04,1,rename-class,id,healenium-3.5.1,success,healenium,366,Advisor Center,Advisor Center,chaos/res-sb-healenium.json
+supabase-studio,P0021,T04,2,rename-id-testid,id,healenium-3.5.1,success,healenium,279,Advisor Center,Advisor Center,chaos/res-sb-healenium.json
+supabase-studio,P0022,T04,3,restructure-dom,id,healenium-3.5.1,success,healenium,286,Advisor Center,Advisor Center,chaos/res-sb-healenium.json
+supabase-studio,P0023,T04,4,retext-sibling,id,healenium-3.5.1,success,healenium,419,Advisor Center,Advisor Center,chaos/res-sb-healenium.json
+supabase-studio,P0024,T04,5,attr-reorder-minify,id,healenium-3.5.1,false-heal,healenium,295,Advisor Center,AI Assistant,chaos/res-sb-healenium.json
+supabase-studio,P0025,T05,1,rename-class,id,healenium-3.5.1,success,healenium,367,SQL Editor,SQL Editor,chaos/res-sb-healenium.json
+supabase-studio,P0026,T05,2,rename-id-testid,id,healenium-3.5.1,success,healenium,352,SQL Editor,SQL Editor,chaos/res-sb-healenium.json
+supabase-studio,P0027,T05,3,restructure-dom,id,healenium-3.5.1,success,healenium,299,SQL Editor,SQL Editor,chaos/res-sb-healenium.json
+supabase-studio,P0028,T05,4,retext-sibling,id,healenium-3.5.1,success,healenium,282,SQL Editor,SQL Editor,chaos/res-sb-healenium.json
+supabase-studio,P0029,T05,5,attr-reorder-minify,id,healenium-3.5.1,false-heal,healenium,312,SQL Editor,AI Assistant,chaos/res-sb-healenium.json
+supabase-studio,P0030,T06,1,rename-class,id,healenium-3.5.1,success,healenium,281,AI Assistant,AI Assistant,chaos/res-sb-healenium.json
+supabase-studio,P0031,T06,2,rename-id-testid,id,healenium-3.5.1,success,healenium,293,AI Assistant,AI Assistant,chaos/res-sb-healenium.json
+supabase-studio,P0032,T06,3,restructure-dom,id,healenium-3.5.1,success,healenium,270,AI Assistant,AI Assistant,chaos/res-sb-healenium.json
+supabase-studio,P0033,T06,4,retext-sibling,id,healenium-3.5.1,success,healenium,288,AI Assistant,AI Assistant,chaos/res-sb-healenium.json
+supabase-studio,P0034,T06,5,attr-reorder-minify,id,healenium-3.5.1,false-heal,healenium,279,AI Assistant,Help,chaos/res-sb-healenium.json
+supabase-studio,P0035,T07,1,rename-class,id,healenium-3.5.1,false-heal,healenium,300,Settings,Settings,chaos/res-sb-healenium.json
+supabase-studio,P0036,T07,2,rename-id-testid,id,healenium-3.5.1,false-heal,healenium,315,Settings,Settings,chaos/res-sb-healenium.json
+supabase-studio,P0037,T07,3,restructure-dom,id,healenium-3.5.1,target-missing,,,,,chaos/res-sb-healenium.json
+supabase-studio,P0038,T07,4,retext-sibling,id,healenium-3.5.1,false-heal,healenium,365,Settings,Copy,chaos/res-sb-healenium.json
+supabase-studio,P0039,T07,5,attr-reorder-minify,id,healenium-3.5.1,target-missing,,,,,chaos/res-sb-healenium.json
+supabase-studio,P0040,T08,1,rename-class,class,healenium-3.5.1,false-heal,healenium,61,Project Overview,,chaos/res-sb-healenium.json
+supabase-studio,P0041,T08,2,rename-id-testid,class,healenium-3.5.1,false-heal,healenium,63,Project Overview,,chaos/res-sb-healenium.json
+supabase-studio,P0042,T08,3,restructure-dom,class,healenium-3.5.1,false-heal,healenium,75,Project Overview,,chaos/res-sb-healenium.json
+supabase-studio,P0043,T08,4,retext-sibling,class,healenium-3.5.1,false-heal,healenium,70,Project Overview,,chaos/res-sb-healenium.json
+supabase-studio,P0044,T08,5,attr-reorder-minify,class,healenium-3.5.1,false-heal,healenium,60,Project Overview,,chaos/res-sb-healenium.json
+supabase-studio,P0045,T09,1,rename-class,id,healenium-3.5.1,target-missing,,,,,chaos/res-sb-healenium.json
+supabase-studio,P0046,T09,2,rename-id-testid,id,healenium-3.5.1,false-heal,healenium,325,,,chaos/res-sb-healenium.json
+supabase-studio,P0047,T09,3,restructure-dom,id,healenium-3.5.1,target-missing,,,,,chaos/res-sb-healenium.json
+supabase-studio,P0048,T09,4,retext-sibling,id,healenium-3.5.1,target-missing,,,,,chaos/res-sb-healenium.json
+supabase-studio,P0049,T09,5,attr-reorder-minify,id,healenium-3.5.1,target-missing,,,,,chaos/res-sb-healenium.json
+supabase-studio,P0050,T10,1,rename-class,id,healenium-3.5.1,false-heal,healenium,278,Copy,,chaos/res-sb-healenium.json
+supabase-studio,P0051,T10,2,rename-id-testid,id,healenium-3.5.1,target-missing,,,,,chaos/res-sb-healenium.json
+supabase-studio,P0052,T10,3,restructure-dom,id,healenium-3.5.1,false-heal,healenium,234,Copy,,chaos/res-sb-healenium.json
+supabase-studio,P0053,T10,4,retext-sibling,id,healenium-3.5.1,target-missing,,,,,chaos/res-sb-healenium.json
+supabase-studio,P0054,T10,5,attr-reorder-minify,id,healenium-3.5.1,false-heal,healenium,195,Copy,,chaos/res-sb-healenium.json
+supabase-studio,P0055,T11,1,rename-class,class,healenium-3.5.1,false-heal,healenium,58,,,chaos/res-sb-healenium.json
+supabase-studio,P0056,T11,2,rename-id-testid,class,healenium-3.5.1,false-heal,healenium,112,,,chaos/res-sb-healenium.json
+supabase-studio,P0057,T11,3,restructure-dom,class,healenium-3.5.1,false-heal,healenium,62,,,chaos/res-sb-healenium.json
+supabase-studio,P0058,T11,4,retext-sibling,class,healenium-3.5.1,false-heal,healenium,66,,,chaos/res-sb-healenium.json
+supabase-studio,P0059,T11,5,attr-reorder-minify,class,healenium-3.5.1,false-heal,healenium,63,,,chaos/res-sb-healenium.json
+supabase-studio,P0060,T12,1,rename-class,class,healenium-3.5.1,false-heal,healenium,60,,Connect,chaos/res-sb-healenium.json
+supabase-studio,P0061,T12,2,rename-id-testid,class,healenium-3.5.1,false-heal,healenium,51,,Connect,chaos/res-sb-healenium.json
+supabase-studio,P0062,T12,3,restructure-dom,class,healenium-3.5.1,false-heal,healenium,48,,Connect,chaos/res-sb-healenium.json
+supabase-studio,P0063,T12,4,retext-sibling,class,healenium-3.5.1,false-heal,healenium,58,,Connect,chaos/res-sb-healenium.json
+supabase-studio,P0064,T12,5,attr-reorder-minify,class,healenium-3.5.1,false-heal,healenium,112,,Connect,chaos/res-sb-healenium.json
+supabase-studio,P0000,T00,1,rename-class,class,llm-hermes3-8b,success,ollama-dom-healer,8526,Connect,Connect,chaos/res-sb-ollama.json
+supabase-studio,P0001,T00,2,rename-id-testid,class,llm-hermes3-8b,success,ollama-dom-healer,218,Connect,Connect,chaos/res-sb-ollama.json
+supabase-studio,P0002,T00,3,restructure-dom,class,llm-hermes3-8b,success,ollama-dom-healer,206,Connect,Connect,chaos/res-sb-ollama.json
+supabase-studio,P0003,T00,4,retext-sibling,class,llm-hermes3-8b,success,ollama-dom-healer,223,Connect,Connect,chaos/res-sb-ollama.json
+supabase-studio,P0004,T00,5,attr-reorder-minify,class,llm-hermes3-8b,success,ollama-dom-healer,208,Connect,Connect,chaos/res-sb-ollama.json
+supabase-studio,P0005,T01,1,rename-class,class,llm-hermes3-8b,false-heal,ollama-dom-healer,5452,Supabase Studio (CLI) Connect LATEST  Search...  ⌘K Help Advisor Center SQL Edit,LATEST,chaos/res-sb-ollama.json
+supabase-studio,P0006,T01,2,rename-id-testid,class,llm-hermes3-8b,false-heal,ollama-dom-healer,208,Supabase Studio (CLI) Connect LATEST  Search...  ⌘K Help Advisor Center SQL Edit,LATEST,chaos/res-sb-ollama.json
+supabase-studio,P0007,T01,3,restructure-dom,class,llm-hermes3-8b,false-heal,ollama-dom-healer,210,Supabase Studio (CLI) Connect LATEST  Search...  ⌘K Help Advisor Center SQL Edit,LATEST,chaos/res-sb-ollama.json
+supabase-studio,P0008,T01,4,retext-sibling,class,llm-hermes3-8b,false-heal,ollama-dom-healer,207,Supabase Studio (CLI) Connect LATEST  Search...  ⌘K Help Advisor Center SQL Edit,LATEST,chaos/res-sb-ollama.json
+supabase-studio,P0009,T01,5,attr-reorder-minify,class,llm-hermes3-8b,false-heal,ollama-dom-healer,210,Supabase Studio (CLI) Connect LATEST  Search...  ⌘K Help Advisor Center SQL Edit,LATEST,chaos/res-sb-ollama.json
+supabase-studio,P0010,T02,1,rename-class,class,llm-hermes3-8b,success,ollama-dom-healer,5394,Search...  ⌘K,Search...  ⌘K,chaos/res-sb-ollama.json
+supabase-studio,P0011,T02,2,rename-id-testid,class,llm-hermes3-8b,success,ollama-dom-healer,213,Search...  ⌘K,Search...  ⌘K,chaos/res-sb-ollama.json
+supabase-studio,P0012,T02,3,restructure-dom,class,llm-hermes3-8b,success,ollama-dom-healer,4990,Search...  ⌘K,Search...  ⌘K,chaos/res-sb-ollama.json
+supabase-studio,P0013,T02,4,retext-sibling,class,llm-hermes3-8b,success,ollama-dom-healer,5056,Search...  ⌘K,Search...  ⌘K,chaos/res-sb-ollama.json
+supabase-studio,P0014,T02,5,attr-reorder-minify,class,llm-hermes3-8b,success,ollama-dom-healer,206,Search...  ⌘K,Search...  ⌘K,chaos/res-sb-ollama.json
+supabase-studio,P0015,T03,1,rename-class,id,llm-hermes3-8b,success,ollama-dom-healer,5368,Help,Help,chaos/res-sb-ollama.json
+supabase-studio,P0016,T03,2,rename-id-testid,id,llm-hermes3-8b,success,ollama-dom-healer,209,Help,Help,chaos/res-sb-ollama.json
+supabase-studio,P0017,T03,3,restructure-dom,id,llm-hermes3-8b,success,ollama-dom-healer,4833,Help,Help,chaos/res-sb-ollama.json
+supabase-studio,P0018,T03,4,retext-sibling,id,llm-hermes3-8b,success,ollama-dom-healer,4902,Help,Help,chaos/res-sb-ollama.json
+supabase-studio,P0019,T03,5,attr-reorder-minify,id,llm-hermes3-8b,success,ollama-dom-healer,290,Help,Help,chaos/res-sb-ollama.json
+supabase-studio,P0020,T04,1,rename-class,id,llm-hermes3-8b,success,ollama-dom-healer,5423,Advisor Center,Advisor Center,chaos/res-sb-ollama.json
+supabase-studio,P0021,T04,2,rename-id-testid,id,llm-hermes3-8b,success,ollama-dom-healer,343,Advisor Center,Advisor Center,chaos/res-sb-ollama.json
+supabase-studio,P0022,T04,3,restructure-dom,id,llm-hermes3-8b,success,ollama-dom-healer,252,Advisor Center,Advisor Center,chaos/res-sb-ollama.json
+supabase-studio,P0023,T04,4,retext-sibling,id,llm-hermes3-8b,success,ollama-dom-healer,5342,Advisor Center,Advisor Center,chaos/res-sb-ollama.json
+supabase-studio,P0024,T04,5,attr-reorder-minify,id,llm-hermes3-8b,success,ollama-dom-healer,5305,Advisor Center,Advisor Center,chaos/res-sb-ollama.json
+supabase-studio,P0025,T05,1,rename-class,id,llm-hermes3-8b,success,ollama-dom-healer,5402,SQL Editor,SQL Editor,chaos/res-sb-ollama.json
+supabase-studio,P0026,T05,2,rename-id-testid,id,llm-hermes3-8b,success,ollama-dom-healer,210,SQL Editor,SQL Editor,chaos/res-sb-ollama.json
+supabase-studio,P0027,T05,3,restructure-dom,id,llm-hermes3-8b,success,ollama-dom-healer,4638,SQL Editor,SQL Editor,chaos/res-sb-ollama.json
+supabase-studio,P0028,T05,4,retext-sibling,id,llm-hermes3-8b,success,ollama-dom-healer,4631,SQL Editor,SQL Editor,chaos/res-sb-ollama.json
+supabase-studio,P0029,T05,5,attr-reorder-minify,id,llm-hermes3-8b,success,ollama-dom-healer,208,SQL Editor,SQL Editor,chaos/res-sb-ollama.json
+supabase-studio,P0030,T06,1,rename-class,id,llm-hermes3-8b,success,ollama-dom-healer,5369,AI Assistant,AI Assistant,chaos/res-sb-ollama.json
+supabase-studio,P0031,T06,2,rename-id-testid,id,llm-hermes3-8b,success,ollama-dom-healer,284,AI Assistant,AI Assistant,chaos/res-sb-ollama.json
+supabase-studio,P0032,T06,3,restructure-dom,id,llm-hermes3-8b,success,ollama-dom-healer,4501,AI Assistant,AI Assistant,chaos/res-sb-ollama.json
+supabase-studio,P0033,T06,4,retext-sibling,id,llm-hermes3-8b,success,ollama-dom-healer,4509,AI Assistant,AI Assistant,chaos/res-sb-ollama.json
+supabase-studio,P0034,T06,5,attr-reorder-minify,id,llm-hermes3-8b,success,ollama-dom-healer,232,AI Assistant,AI Assistant,chaos/res-sb-ollama.json
+supabase-studio,P0035,T07,1,rename-class,id,llm-hermes3-8b,false-heal,ollama-dom-healer,5379,Settings,Settings,chaos/res-sb-ollama.json
+supabase-studio,P0036,T07,2,rename-id-testid,id,llm-hermes3-8b,false-heal,ollama-dom-healer,252,Settings,Settings,chaos/res-sb-ollama.json
+supabase-studio,P0037,T07,3,restructure-dom,id,llm-hermes3-8b,false-heal,ollama-dom-healer,2683,Settings,Settings,chaos/res-sb-ollama.json
+supabase-studio,P0038,T07,4,retext-sibling,id,llm-hermes3-8b,false-heal,ollama-dom-healer,2623,Settings,Settings,chaos/res-sb-ollama.json
+supabase-studio,P0039,T07,5,attr-reorder-minify,id,llm-hermes3-8b,false-heal,ollama-dom-healer,2615,Settings,Settings,chaos/res-sb-ollama.json
+supabase-studio,P0040,T08,1,rename-class,class,llm-hermes3-8b,success,ollama-dom-healer,5374,Project Overview,Project Overview,chaos/res-sb-ollama.json
+supabase-studio,P0041,T08,2,rename-id-testid,class,llm-hermes3-8b,success,ollama-dom-healer,208,Project Overview,Project Overview,chaos/res-sb-ollama.json
+supabase-studio,P0042,T08,3,restructure-dom,class,llm-hermes3-8b,success,ollama-dom-healer,212,Project Overview,Project Overview,chaos/res-sb-ollama.json
+supabase-studio,P0043,T08,4,retext-sibling,class,llm-hermes3-8b,success,ollama-dom-healer,208,Project Overview,Project Overview,chaos/res-sb-ollama.json
+supabase-studio,P0044,T08,5,attr-reorder-minify,class,llm-hermes3-8b,success,ollama-dom-healer,207,Project Overview,Project Overview,chaos/res-sb-ollama.json
+supabase-studio,P0045,T09,1,rename-class,id,llm-hermes3-8b,success,ollama-dom-healer,5363,,,chaos/res-sb-ollama.json
+supabase-studio,P0046,T09,2,rename-id-testid,id,llm-hermes3-8b,target-missing,,,,,chaos/res-sb-ollama.json
+supabase-studio,P0047,T09,3,restructure-dom,id,llm-hermes3-8b,target-missing,,,,,chaos/res-sb-ollama.json
+supabase-studio,P0048,T09,4,retext-sibling,id,llm-hermes3-8b,target-missing,,,,,chaos/res-sb-ollama.json
+supabase-studio,P0049,T09,5,attr-reorder-minify,id,llm-hermes3-8b,target-missing,,,,,chaos/res-sb-ollama.json
+supabase-studio,P0050,T10,1,rename-class,id,llm-hermes3-8b,target-missing,,,,,chaos/res-sb-ollama.json
+supabase-studio,P0051,T10,2,rename-id-testid,id,llm-hermes3-8b,target-missing,,,,,chaos/res-sb-ollama.json
+supabase-studio,P0052,T10,3,restructure-dom,id,llm-hermes3-8b,target-missing,,,,,chaos/res-sb-ollama.json
+supabase-studio,P0053,T10,4,retext-sibling,id,llm-hermes3-8b,target-missing,,,,,chaos/res-sb-ollama.json
+supabase-studio,P0054,T10,5,attr-reorder-minify,id,llm-hermes3-8b,target-missing,,,,,chaos/res-sb-ollama.json
+supabase-studio,P0055,T11,1,rename-class,class,llm-hermes3-8b,false-heal,ollama-dom-healer,5431,,Connect,chaos/res-sb-ollama.json
+supabase-studio,P0056,T11,2,rename-id-testid,class,llm-hermes3-8b,false-heal,ollama-dom-healer,215,,Connect,chaos/res-sb-ollama.json
+supabase-studio,P0057,T11,3,restructure-dom,class,llm-hermes3-8b,false-heal,ollama-dom-healer,164,,Connect,chaos/res-sb-ollama.json
+supabase-studio,P0058,T11,4,retext-sibling,class,llm-hermes3-8b,false-heal,ollama-dom-healer,205,,Connect,chaos/res-sb-ollama.json
+supabase-studio,P0059,T11,5,attr-reorder-minify,class,llm-hermes3-8b,false-heal,ollama-dom-healer,206,,Connect,chaos/res-sb-ollama.json
+supabase-studio,P0060,T12,1,rename-class,class,llm-hermes3-8b,false-heal,ollama-dom-healer,204,,Connect,chaos/res-sb-ollama.json
+supabase-studio,P0061,T12,2,rename-id-testid,class,llm-hermes3-8b,false-heal,ollama-dom-healer,206,,Connect,chaos/res-sb-ollama.json
+supabase-studio,P0062,T12,3,restructure-dom,class,llm-hermes3-8b,false-heal,ollama-dom-healer,5306,,,chaos/res-sb-ollama.json
+supabase-studio,P0063,T12,4,retext-sibling,class,llm-hermes3-8b,false-heal,ollama-dom-healer,5298,,Connect,chaos/res-sb-ollama.json
+supabase-studio,P0064,T12,5,attr-reorder-minify,class,llm-hermes3-8b,false-heal,ollama-dom-healer,211,,Connect,chaos/res-sb-ollama.json
+grafana,P0000,T00,1,rename-class,id,brittle-only,miss,brittle,17,,,chaos/res-gf-allresolvers.json
+grafana,P0001,T00,2,rename-id-testid,id,brittle-only,miss,brittle,17,,,chaos/res-gf-allresolvers.json
+grafana,P0002,T00,3,restructure-dom,id,brittle-only,miss,brittle,16,,,chaos/res-gf-allresolvers.json
+grafana,P0003,T00,4,retext-sibling,id,brittle-only,miss,brittle,9,,,chaos/res-gf-allresolvers.json
+grafana,P0004,T00,5,attr-reorder-minify,id,brittle-only,miss,brittle,17,,,chaos/res-gf-allresolvers.json
+grafana,P0005,T01,1,rename-class,class,brittle-only,miss,brittle,16,,,chaos/res-gf-allresolvers.json
+grafana,P0006,T01,2,rename-id-testid,class,brittle-only,miss,brittle,17,,,chaos/res-gf-allresolvers.json
+grafana,P0007,T01,3,restructure-dom,class,brittle-only,miss,brittle,16,,,chaos/res-gf-allresolvers.json
+grafana,P0008,T01,4,retext-sibling,class,brittle-only,miss,brittle,16,,,chaos/res-gf-allresolvers.json
+grafana,P0009,T01,5,attr-reorder-minify,class,brittle-only,miss,brittle,10,,,chaos/res-gf-allresolvers.json
+grafana,P0010,T02,1,rename-class,test-id,brittle-only,false-heal,brittle,18,Home,Starred,chaos/res-gf-allresolvers.json
+grafana,P0011,T02,2,rename-id-testid,test-id,brittle-only,false-heal,brittle,15,Home,Starred,chaos/res-gf-allresolvers.json
+grafana,P0012,T02,3,restructure-dom,test-id,brittle-only,false-heal,brittle,18,Home,Starred,chaos/res-gf-allresolvers.json
+grafana,P0013,T02,4,retext-sibling,test-id,brittle-only,false-heal,brittle,15,Home,Starred,chaos/res-gf-allresolvers.json
+grafana,P0014,T02,5,attr-reorder-minify,test-id,brittle-only,false-heal,brittle,11,Home,Starred,chaos/res-gf-allresolvers.json
+grafana,P0015,T03,1,rename-class,class,brittle-only,false-heal,brittle,16,,,chaos/res-gf-allresolvers.json
+grafana,P0016,T03,2,rename-id-testid,class,brittle-only,false-heal,brittle,18,,,chaos/res-gf-allresolvers.json
+grafana,P0017,T03,3,restructure-dom,class,brittle-only,false-heal,brittle,19,,,chaos/res-gf-allresolvers.json
+grafana,P0018,T03,4,retext-sibling,class,brittle-only,false-heal,brittle,17,,,chaos/res-gf-allresolvers.json
+grafana,P0019,T03,5,attr-reorder-minify,class,brittle-only,false-heal,brittle,14,,,chaos/res-gf-allresolvers.json
+grafana,P0020,T04,1,rename-class,test-id,brittle-only,miss,brittle,12,Dashboards,,chaos/res-gf-allresolvers.json
+grafana,P0021,T04,2,rename-id-testid,test-id,brittle-only,miss,brittle,13,Dashboards,,chaos/res-gf-allresolvers.json
+grafana,P0022,T04,3,restructure-dom,test-id,brittle-only,miss,brittle,17,Dashboards,,chaos/res-gf-allresolvers.json
+grafana,P0023,T04,4,retext-sibling,test-id,brittle-only,miss,brittle,16,Dashboards,,chaos/res-gf-allresolvers.json
+grafana,P0024,T04,5,attr-reorder-minify,test-id,brittle-only,miss,brittle,16,Dashboards,,chaos/res-gf-allresolvers.json
+grafana,P0025,T05,1,rename-class,class,brittle-only,miss,brittle,16,Search...,,chaos/res-gf-allresolvers.json
+grafana,P0026,T05,2,rename-id-testid,class,brittle-only,miss,brittle,10,Search...,,chaos/res-gf-allresolvers.json
+grafana,P0027,T05,3,restructure-dom,class,brittle-only,miss,brittle,16,Search...,,chaos/res-gf-allresolvers.json
+grafana,P0028,T05,4,retext-sibling,class,brittle-only,miss,brittle,16,Search...,,chaos/res-gf-allresolvers.json
+grafana,P0029,T05,5,attr-reorder-minify,class,brittle-only,miss,brittle,16,Search...,,chaos/res-gf-allresolvers.json
+grafana,P0030,T06,1,rename-class,class,brittle-only,false-heal,brittle,19,,,chaos/res-gf-allresolvers.json
+grafana,P0031,T06,2,rename-id-testid,class,brittle-only,false-heal,brittle,19,,,chaos/res-gf-allresolvers.json
+grafana,P0032,T06,3,restructure-dom,class,brittle-only,false-heal,brittle,15,,,chaos/res-gf-allresolvers.json
+grafana,P0033,T06,4,retext-sibling,class,brittle-only,false-heal,brittle,17,,,chaos/res-gf-allresolvers.json
+grafana,P0034,T06,5,attr-reorder-minify,class,brittle-only,false-heal,brittle,18,,,chaos/res-gf-allresolvers.json
+grafana,P0035,T07,1,rename-class,class,brittle-only,miss,brittle,16,Sign in,,chaos/res-gf-allresolvers.json
+grafana,P0036,T07,2,rename-id-testid,class,brittle-only,miss,brittle,15,Sign in,,chaos/res-gf-allresolvers.json
+grafana,P0037,T07,3,restructure-dom,class,brittle-only,miss,brittle,15,Sign in,,chaos/res-gf-allresolvers.json
+grafana,P0038,T07,4,retext-sibling,class,brittle-only,miss,brittle,17,Sign in,,chaos/res-gf-allresolvers.json
+grafana,P0039,T07,5,attr-reorder-minify,class,brittle-only,miss,brittle,15,Sign in,,chaos/res-gf-allresolvers.json
+grafana,P0040,T08,1,rename-class,test-id,brittle-only,false-heal,brittle,19,,,chaos/res-gf-allresolvers.json
+grafana,P0041,T08,2,rename-id-testid,test-id,brittle-only,false-heal,brittle,18,,,chaos/res-gf-allresolvers.json
+grafana,P0042,T08,3,restructure-dom,test-id,brittle-only,false-heal,brittle,18,,,chaos/res-gf-allresolvers.json
+grafana,P0043,T08,4,retext-sibling,test-id,brittle-only,false-heal,brittle,18,,,chaos/res-gf-allresolvers.json
+grafana,P0044,T08,5,attr-reorder-minify,test-id,brittle-only,false-heal,brittle,16,,,chaos/res-gf-allresolvers.json
+grafana,P0045,T09,1,rename-class,class,brittle-only,false-heal,brittle,18,Documentation,Tutorials,chaos/res-gf-allresolvers.json
+grafana,P0046,T09,2,rename-id-testid,class,brittle-only,false-heal,brittle,19,Documentation,Tutorials,chaos/res-gf-allresolvers.json
+grafana,P0047,T09,3,restructure-dom,class,brittle-only,false-heal,brittle,18,Documentation,Tutorials,chaos/res-gf-allresolvers.json
+grafana,P0048,T09,4,retext-sibling,class,brittle-only,false-heal,brittle,19,Documentation,Tutorials,chaos/res-gf-allresolvers.json
+grafana,P0049,T09,5,attr-reorder-minify,class,brittle-only,false-heal,brittle,19,Documentation,Tutorials,chaos/res-gf-allresolvers.json
+grafana,P0050,T10,1,rename-class,class,brittle-only,miss,brittle,18,Remove this panel,,chaos/res-gf-allresolvers.json
+grafana,P0051,T10,2,rename-id-testid,class,brittle-only,miss,brittle,16,Remove this panel,,chaos/res-gf-allresolvers.json
+grafana,P0052,T10,3,restructure-dom,class,brittle-only,miss,brittle,17,Remove this panel,,chaos/res-gf-allresolvers.json
+grafana,P0053,T10,4,retext-sibling,class,brittle-only,miss,brittle,16,Remove this panel,,chaos/res-gf-allresolvers.json
+grafana,P0054,T10,5,attr-reorder-minify,class,brittle-only,miss,brittle,15,Remove this panel,,chaos/res-gf-allresolvers.json
+grafana,P0055,T11,1,rename-class,class,brittle-only,miss,brittle,16,,,chaos/res-gf-allresolvers.json
+grafana,P0056,T11,2,rename-id-testid,class,brittle-only,miss,brittle,16,,,chaos/res-gf-allresolvers.json
+grafana,P0057,T11,3,restructure-dom,class,brittle-only,miss,brittle,16,,,chaos/res-gf-allresolvers.json
+grafana,P0058,T11,4,retext-sibling,class,brittle-only,miss,brittle,15,,,chaos/res-gf-allresolvers.json
+grafana,P0059,T11,5,attr-reorder-minify,class,brittle-only,miss,brittle,14,,,chaos/res-gf-allresolvers.json
+grafana,P0060,T12,1,rename-class,test-id,brittle-only,miss,brittle,17,,,chaos/res-gf-allresolvers.json
+grafana,P0061,T12,2,rename-id-testid,test-id,brittle-only,miss,brittle,17,,,chaos/res-gf-allresolvers.json
+grafana,P0062,T12,3,restructure-dom,test-id,brittle-only,miss,brittle,16,,,chaos/res-gf-allresolvers.json
+grafana,P0063,T12,4,retext-sibling,test-id,brittle-only,miss,brittle,17,,,chaos/res-gf-allresolvers.json
+grafana,P0064,T12,5,attr-reorder-minify,test-id,brittle-only,miss,brittle,16,,,chaos/res-gf-allresolvers.json
+grafana,P0065,T13,1,rename-class,test-id,brittle-only,miss,brittle,16,,,chaos/res-gf-allresolvers.json
+grafana,P0066,T13,2,rename-id-testid,test-id,brittle-only,miss,brittle,16,,,chaos/res-gf-allresolvers.json
+grafana,P0067,T13,3,restructure-dom,test-id,brittle-only,miss,brittle,16,,,chaos/res-gf-allresolvers.json
+grafana,P0068,T13,4,retext-sibling,test-id,brittle-only,miss,brittle,15,,,chaos/res-gf-allresolvers.json
+grafana,P0069,T13,5,attr-reorder-minify,test-id,brittle-only,miss,brittle,17,,,chaos/res-gf-allresolvers.json
+grafana,P0070,T14,1,rename-class,test-id,brittle-only,miss,brittle,16,,,chaos/res-gf-allresolvers.json
+grafana,P0071,T14,2,rename-id-testid,test-id,brittle-only,miss,brittle,16,,,chaos/res-gf-allresolvers.json
+grafana,P0072,T14,3,restructure-dom,test-id,brittle-only,miss,brittle,17,,,chaos/res-gf-allresolvers.json
+grafana,P0073,T14,4,retext-sibling,test-id,brittle-only,miss,brittle,15,,,chaos/res-gf-allresolvers.json
+grafana,P0074,T14,5,attr-reorder-minify,test-id,brittle-only,miss,brittle,16,,,chaos/res-gf-allresolvers.json
+grafana,P0075,T15,1,rename-class,test-id,brittle-only,miss,brittle,16,,,chaos/res-gf-allresolvers.json
+grafana,P0076,T15,2,rename-id-testid,test-id,brittle-only,miss,brittle,17,,,chaos/res-gf-allresolvers.json
+grafana,P0077,T15,3,restructure-dom,test-id,brittle-only,miss,brittle,15,,,chaos/res-gf-allresolvers.json
+grafana,P0078,T15,4,retext-sibling,test-id,brittle-only,miss,brittle,16,,,chaos/res-gf-allresolvers.json
+grafana,P0079,T15,5,attr-reorder-minify,test-id,brittle-only,miss,brittle,18,,,chaos/res-gf-allresolvers.json
+grafana,P0000,T00,1,rename-class,id,text-role,false-heal,text-role,3,,,chaos/res-gf-allresolvers.json
+grafana,P0001,T00,2,rename-id-testid,id,text-role,false-heal,text-role,2,,,chaos/res-gf-allresolvers.json
+grafana,P0002,T00,3,restructure-dom,id,text-role,false-heal,text-role,3,,,chaos/res-gf-allresolvers.json
+grafana,P0003,T00,4,retext-sibling,id,text-role,false-heal,text-role,2,,,chaos/res-gf-allresolvers.json
+grafana,P0004,T00,5,attr-reorder-minify,id,text-role,false-heal,text-role,2,,,chaos/res-gf-allresolvers.json
+grafana,P0005,T01,1,rename-class,class,text-role,false-heal,text-role,2,,,chaos/res-gf-allresolvers.json
+grafana,P0006,T01,2,rename-id-testid,class,text-role,false-heal,text-role,3,,,chaos/res-gf-allresolvers.json
+grafana,P0007,T01,3,restructure-dom,class,text-role,false-heal,text-role,3,,,chaos/res-gf-allresolvers.json
+grafana,P0008,T01,4,retext-sibling,class,text-role,false-heal,text-role,3,,,chaos/res-gf-allresolvers.json
+grafana,P0009,T01,5,attr-reorder-minify,class,text-role,false-heal,text-role,2,,,chaos/res-gf-allresolvers.json
+grafana,P0010,T02,1,rename-class,test-id,text-role,false-heal,text-role,1,Home,Home,chaos/res-gf-allresolvers.json
+grafana,P0011,T02,2,rename-id-testid,test-id,text-role,false-heal,text-role,1,Home,Home,chaos/res-gf-allresolvers.json
+grafana,P0012,T02,3,restructure-dom,test-id,text-role,false-heal,text-role,2,Home,Home,chaos/res-gf-allresolvers.json
+grafana,P0013,T02,4,retext-sibling,test-id,text-role,false-heal,text-role,1,Home,Home,chaos/res-gf-allresolvers.json
+grafana,P0014,T02,5,attr-reorder-minify,test-id,text-role,false-heal,text-role,1,Home,Home,chaos/res-gf-allresolvers.json
+grafana,P0015,T03,1,rename-class,class,text-role,false-heal,text-role,1,,,chaos/res-gf-allresolvers.json
+grafana,P0016,T03,2,rename-id-testid,class,text-role,false-heal,text-role,1,,,chaos/res-gf-allresolvers.json
+grafana,P0017,T03,3,restructure-dom,class,text-role,false-heal,text-role,1,,,chaos/res-gf-allresolvers.json
+grafana,P0018,T03,4,retext-sibling,class,text-role,false-heal,text-role,1,,,chaos/res-gf-allresolvers.json
+grafana,P0019,T03,5,attr-reorder-minify,class,text-role,false-heal,text-role,1,,,chaos/res-gf-allresolvers.json
+grafana,P0020,T04,1,rename-class,test-id,text-role,false-heal,text-role,1,Dashboards,Dashboards,chaos/res-gf-allresolvers.json
+grafana,P0021,T04,2,rename-id-testid,test-id,text-role,false-heal,text-role,2,Dashboards,Dashboards,chaos/res-gf-allresolvers.json
+grafana,P0022,T04,3,restructure-dom,test-id,text-role,false-heal,text-role,4,Dashboards,Dashboards,chaos/res-gf-allresolvers.json
+grafana,P0023,T04,4,retext-sibling,test-id,text-role,false-heal,text-role,3,Dashboards,Dashboards,chaos/res-gf-allresolvers.json
+grafana,P0024,T04,5,attr-reorder-minify,test-id,text-role,false-heal,text-role,2,Dashboards,Dashboards,chaos/res-gf-allresolvers.json
+grafana,P0025,T05,1,rename-class,class,text-role,success,text-role,3,Search...,Search...,chaos/res-gf-allresolvers.json
+grafana,P0026,T05,2,rename-id-testid,class,text-role,success,text-role,1,Search...,Search...,chaos/res-gf-allresolvers.json
+grafana,P0027,T05,3,restructure-dom,class,text-role,false-heal,text-role,9,Search...,Search...,chaos/res-gf-allresolvers.json
+grafana,P0028,T05,4,retext-sibling,class,text-role,success,text-role,3,Search...,Search...,chaos/res-gf-allresolvers.json
+grafana,P0029,T05,5,attr-reorder-minify,class,text-role,success,text-role,3,Search...,Search...,chaos/res-gf-allresolvers.json
+grafana,P0030,T06,1,rename-class,class,text-role,false-heal,text-role,2,,,chaos/res-gf-allresolvers.json
+grafana,P0031,T06,2,rename-id-testid,class,text-role,false-heal,text-role,1,,,chaos/res-gf-allresolvers.json
+grafana,P0032,T06,3,restructure-dom,class,text-role,false-heal,text-role,1,,,chaos/res-gf-allresolvers.json
+grafana,P0033,T06,4,retext-sibling,class,text-role,false-heal,text-role,1,,,chaos/res-gf-allresolvers.json
+grafana,P0034,T06,5,attr-reorder-minify,class,text-role,false-heal,text-role,1,,,chaos/res-gf-allresolvers.json
+grafana,P0035,T07,1,rename-class,class,text-role,success,text-role,2,Sign in,Sign in,chaos/res-gf-allresolvers.json
+grafana,P0036,T07,2,rename-id-testid,class,text-role,success,text-role,3,Sign in,Sign in,chaos/res-gf-allresolvers.json
+grafana,P0037,T07,3,restructure-dom,class,text-role,false-heal,text-role,2,Sign in,Sign in,chaos/res-gf-allresolvers.json
+grafana,P0038,T07,4,retext-sibling,class,text-role,success,text-role,2,Sign in,Sign in,chaos/res-gf-allresolvers.json
+grafana,P0039,T07,5,attr-reorder-minify,class,text-role,success,text-role,3,Sign in,Sign in,chaos/res-gf-allresolvers.json
+grafana,P0040,T08,1,rename-class,test-id,text-role,false-heal,text-role,1,,,chaos/res-gf-allresolvers.json
+grafana,P0041,T08,2,rename-id-testid,test-id,text-role,false-heal,text-role,1,,,chaos/res-gf-allresolvers.json
+grafana,P0042,T08,3,restructure-dom,test-id,text-role,false-heal,text-role,1,,,chaos/res-gf-allresolvers.json
+grafana,P0043,T08,4,retext-sibling,test-id,text-role,false-heal,text-role,1,,,chaos/res-gf-allresolvers.json
+grafana,P0044,T08,5,attr-reorder-minify,test-id,text-role,false-heal,text-role,2,,,chaos/res-gf-allresolvers.json
+grafana,P0045,T09,1,rename-class,class,text-role,success,text-role,1,Documentation,Documentation,chaos/res-gf-allresolvers.json
+grafana,P0046,T09,2,rename-id-testid,class,text-role,success,text-role,2,Documentation,Documentation,chaos/res-gf-allresolvers.json
+grafana,P0047,T09,3,restructure-dom,class,text-role,false-heal,text-role,2,Documentation,Documentation,chaos/res-gf-allresolvers.json
+grafana,P0048,T09,4,retext-sibling,class,text-role,success,text-role,2,Documentation,Documentation,chaos/res-gf-allresolvers.json
+grafana,P0049,T09,5,attr-reorder-minify,class,text-role,success,text-role,2,Documentation,Documentation,chaos/res-gf-allresolvers.json
+grafana,P0050,T10,1,rename-class,class,text-role,success,text-role,3,Remove this panel,Remove this panel,chaos/res-gf-allresolvers.json
+grafana,P0051,T10,2,rename-id-testid,class,text-role,success,text-role,3,Remove this panel,Remove this panel,chaos/res-gf-allresolvers.json
+grafana,P0052,T10,3,restructure-dom,class,text-role,false-heal,text-role,3,Remove this panel,Remove this panel,chaos/res-gf-allresolvers.json
+grafana,P0053,T10,4,retext-sibling,class,text-role,success,text-role,3,Remove this panel,Remove this panel,chaos/res-gf-allresolvers.json
+grafana,P0054,T10,5,attr-reorder-minify,class,text-role,success,text-role,3,Remove this panel,Remove this panel,chaos/res-gf-allresolvers.json
+grafana,P0055,T11,1,rename-class,class,text-role,false-heal,text-role,3,,,chaos/res-gf-allresolvers.json
+grafana,P0056,T11,2,rename-id-testid,class,text-role,false-heal,text-role,3,,,chaos/res-gf-allresolvers.json
+grafana,P0057,T11,3,restructure-dom,class,text-role,false-heal,text-role,3,,,chaos/res-gf-allresolvers.json
+grafana,P0058,T11,4,retext-sibling,class,text-role,false-heal,text-role,2,,,chaos/res-gf-allresolvers.json
+grafana,P0059,T11,5,attr-reorder-minify,class,text-role,false-heal,text-role,3,,,chaos/res-gf-allresolvers.json
+grafana,P0060,T12,1,rename-class,test-id,text-role,false-heal,text-role,2,,,chaos/res-gf-allresolvers.json
+grafana,P0061,T12,2,rename-id-testid,test-id,text-role,false-heal,text-role,2,,,chaos/res-gf-allresolvers.json
+grafana,P0062,T12,3,restructure-dom,test-id,text-role,false-heal,text-role,2,,,chaos/res-gf-allresolvers.json
+grafana,P0063,T12,4,retext-sibling,test-id,text-role,false-heal,text-role,2,,,chaos/res-gf-allresolvers.json
+grafana,P0064,T12,5,attr-reorder-minify,test-id,text-role,false-heal,text-role,2,,,chaos/res-gf-allresolvers.json
+grafana,P0065,T13,1,rename-class,test-id,text-role,false-heal,text-role,3,,,chaos/res-gf-allresolvers.json
+grafana,P0066,T13,2,rename-id-testid,test-id,text-role,false-heal,text-role,2,,,chaos/res-gf-allresolvers.json
+grafana,P0067,T13,3,restructure-dom,test-id,text-role,false-heal,text-role,3,,,chaos/res-gf-allresolvers.json
+grafana,P0068,T13,4,retext-sibling,test-id,text-role,false-heal,text-role,2,,,chaos/res-gf-allresolvers.json
+grafana,P0069,T13,5,attr-reorder-minify,test-id,text-role,false-heal,text-role,2,,,chaos/res-gf-allresolvers.json
+grafana,P0070,T14,1,rename-class,test-id,text-role,false-heal,text-role,2,,,chaos/res-gf-allresolvers.json
+grafana,P0071,T14,2,rename-id-testid,test-id,text-role,false-heal,text-role,3,,,chaos/res-gf-allresolvers.json
+grafana,P0072,T14,3,restructure-dom,test-id,text-role,false-heal,text-role,2,,,chaos/res-gf-allresolvers.json
+grafana,P0073,T14,4,retext-sibling,test-id,text-role,false-heal,text-role,3,,,chaos/res-gf-allresolvers.json
+grafana,P0074,T14,5,attr-reorder-minify,test-id,text-role,false-heal,text-role,2,,,chaos/res-gf-allresolvers.json
+grafana,P0075,T15,1,rename-class,test-id,text-role,false-heal,text-role,3,,,chaos/res-gf-allresolvers.json
+grafana,P0076,T15,2,rename-id-testid,test-id,text-role,false-heal,text-role,3,,,chaos/res-gf-allresolvers.json
+grafana,P0077,T15,3,restructure-dom,test-id,text-role,false-heal,text-role,3,,,chaos/res-gf-allresolvers.json
+grafana,P0078,T15,4,retext-sibling,test-id,text-role,false-heal,text-role,2,,,chaos/res-gf-allresolvers.json
+grafana,P0079,T15,5,attr-reorder-minify,test-id,text-role,false-heal,text-role,2,,,chaos/res-gf-allresolvers.json
+grafana,P0000,T00,1,rename-class,id,llm-claude-sonnet-4-6,success,dom-healer,3773,,,chaos/res-gf-allresolvers.json
+grafana,P0001,T00,2,rename-id-testid,id,llm-claude-sonnet-4-6,success,dom-healer,2913,,,chaos/res-gf-allresolvers.json
+grafana,P0002,T00,3,restructure-dom,id,llm-claude-sonnet-4-6,success,dom-healer,4460,,,chaos/res-gf-allresolvers.json
+grafana,P0003,T00,4,retext-sibling,id,llm-claude-sonnet-4-6,success,dom-healer,2382,,,chaos/res-gf-allresolvers.json
+grafana,P0004,T00,5,attr-reorder-minify,id,llm-claude-sonnet-4-6,false-heal,dom-healer,6939,,,chaos/res-gf-allresolvers.json
+grafana,P0005,T01,1,rename-class,class,llm-claude-sonnet-4-6,success,dom-healer,2810,,,chaos/res-gf-allresolvers.json
+grafana,P0006,T01,2,rename-id-testid,class,llm-claude-sonnet-4-6,success,dom-healer,2467,,,chaos/res-gf-allresolvers.json
+grafana,P0007,T01,3,restructure-dom,class,llm-claude-sonnet-4-6,success,dom-healer,2994,,,chaos/res-gf-allresolvers.json
+grafana,P0008,T01,4,retext-sibling,class,llm-claude-sonnet-4-6,success,dom-healer,2797,,,chaos/res-gf-allresolvers.json
+grafana,P0009,T01,5,attr-reorder-minify,class,llm-claude-sonnet-4-6,false-heal,dom-healer,3331,,Home,chaos/res-gf-allresolvers.json
+grafana,P0010,T02,1,rename-class,test-id,llm-claude-sonnet-4-6,success,dom-healer,2992,Home,Home,chaos/res-gf-allresolvers.json
+grafana,P0011,T02,2,rename-id-testid,test-id,llm-claude-sonnet-4-6,success,dom-healer,2711,Home,Home,chaos/res-gf-allresolvers.json
+grafana,P0012,T02,3,restructure-dom,test-id,llm-claude-sonnet-4-6,success,dom-healer,2925,Home,Home,chaos/res-gf-allresolvers.json
+grafana,P0013,T02,4,retext-sibling,test-id,llm-claude-sonnet-4-6,success,dom-healer,2735,Home,Home,chaos/res-gf-allresolvers.json
+grafana,P0014,T02,5,attr-reorder-minify,test-id,llm-claude-sonnet-4-6,success,dom-healer,2634,Home,Home,chaos/res-gf-allresolvers.json
+grafana,P0015,T03,1,rename-class,class,llm-claude-sonnet-4-6,success,dom-healer,3168,,,chaos/res-gf-allresolvers.json
+grafana,P0016,T03,2,rename-id-testid,class,llm-claude-sonnet-4-6,success,dom-healer,2814,,,chaos/res-gf-allresolvers.json
+grafana,P0017,T03,3,restructure-dom,class,llm-claude-sonnet-4-6,success,dom-healer,2884,,,chaos/res-gf-allresolvers.json
+grafana,P0018,T03,4,retext-sibling,class,llm-claude-sonnet-4-6,success,dom-healer,4137,,,chaos/res-gf-allresolvers.json
+grafana,P0019,T03,5,attr-reorder-minify,class,llm-claude-sonnet-4-6,false-heal,dom-healer,2775,,Starred,chaos/res-gf-allresolvers.json
+grafana,P0020,T04,1,rename-class,test-id,llm-claude-sonnet-4-6,false-heal,dom-healer,2428,Dashboards,Dashboards,chaos/res-gf-allresolvers.json
+grafana,P0021,T04,2,rename-id-testid,test-id,llm-claude-sonnet-4-6,false-heal,dom-healer,3248,Dashboards,Dashboards,chaos/res-gf-allresolvers.json
+grafana,P0022,T04,3,restructure-dom,test-id,llm-claude-sonnet-4-6,false-heal,dom-healer,2527,Dashboards,Dashboards,chaos/res-gf-allresolvers.json
+grafana,P0023,T04,4,retext-sibling,test-id,llm-claude-sonnet-4-6,false-heal,dom-healer,3274,Dashboards,Dashboards,chaos/res-gf-allresolvers.json
+grafana,P0024,T04,5,attr-reorder-minify,test-id,llm-claude-sonnet-4-6,false-heal,dom-healer,3350,Dashboards,Dashboards,chaos/res-gf-allresolvers.json
+grafana,P0025,T05,1,rename-class,class,llm-claude-sonnet-4-6,success,dom-healer,2747,Search...,Search...,chaos/res-gf-allresolvers.json
+grafana,P0026,T05,2,rename-id-testid,class,llm-claude-sonnet-4-6,success,dom-healer,3481,Search...,Search...,chaos/res-gf-allresolvers.json
+grafana,P0027,T05,3,restructure-dom,class,llm-claude-sonnet-4-6,success,dom-healer,2708,Search...,Search...,chaos/res-gf-allresolvers.json
+grafana,P0028,T05,4,retext-sibling,class,llm-claude-sonnet-4-6,success,dom-healer,3213,Search...,Search...,chaos/res-gf-allresolvers.json
+grafana,P0029,T05,5,attr-reorder-minify,class,llm-claude-sonnet-4-6,success,dom-healer,3102,Search...,Search...,chaos/res-gf-allresolvers.json
+grafana,P0030,T06,1,rename-class,class,llm-claude-sonnet-4-6,success,dom-healer,3003,,,chaos/res-gf-allresolvers.json
+grafana,P0031,T06,2,rename-id-testid,class,llm-claude-sonnet-4-6,success,dom-healer,3134,,,chaos/res-gf-allresolvers.json
+grafana,P0032,T06,3,restructure-dom,class,llm-claude-sonnet-4-6,success,dom-healer,4426,,,chaos/res-gf-allresolvers.json
+grafana,P0033,T06,4,retext-sibling,class,llm-claude-sonnet-4-6,success,dom-healer,2665,,,chaos/res-gf-allresolvers.json
+grafana,P0034,T06,5,attr-reorder-minify,class,llm-claude-sonnet-4-6,false-heal,dom-healer,2860,,Home,chaos/res-gf-allresolvers.json
+grafana,P0035,T07,1,rename-class,class,llm-claude-sonnet-4-6,success,dom-healer,2684,Sign in,Sign in,chaos/res-gf-allresolvers.json
+grafana,P0036,T07,2,rename-id-testid,class,llm-claude-sonnet-4-6,success,dom-healer,2813,Sign in,Sign in,chaos/res-gf-allresolvers.json
+grafana,P0037,T07,3,restructure-dom,class,llm-claude-sonnet-4-6,success,dom-healer,5382,Sign in,Sign in,chaos/res-gf-allresolvers.json
+grafana,P0038,T07,4,retext-sibling,class,llm-claude-sonnet-4-6,success,dom-healer,3714,Sign in,Sign in,chaos/res-gf-allresolvers.json
+grafana,P0039,T07,5,attr-reorder-minify,class,llm-claude-sonnet-4-6,success,dom-healer,3306,Sign in,Sign in,chaos/res-gf-allresolvers.json
+grafana,P0040,T08,1,rename-class,test-id,llm-claude-sonnet-4-6,success,dom-healer,3022,,,chaos/res-gf-allresolvers.json
+grafana,P0041,T08,2,rename-id-testid,test-id,llm-claude-sonnet-4-6,success,dom-healer,2964,,,chaos/res-gf-allresolvers.json
+grafana,P0042,T08,3,restructure-dom,test-id,llm-claude-sonnet-4-6,success,dom-healer,5114,,,chaos/res-gf-allresolvers.json
+grafana,P0043,T08,4,retext-sibling,test-id,llm-claude-sonnet-4-6,success,dom-healer,2686,,,chaos/res-gf-allresolvers.json
+grafana,P0044,T08,5,attr-reorder-minify,test-id,llm-claude-sonnet-4-6,false-heal,dom-healer,8367,,,chaos/res-gf-allresolvers.json
+grafana,P0045,T09,1,rename-class,class,llm-claude-sonnet-4-6,success,dom-healer,3502,Documentation,Documentation,chaos/res-gf-allresolvers.json
+grafana,P0046,T09,2,rename-id-testid,class,llm-claude-sonnet-4-6,success,dom-healer,3102,Documentation,Documentation,chaos/res-gf-allresolvers.json
+grafana,P0047,T09,3,restructure-dom,class,llm-claude-sonnet-4-6,success,dom-healer,3426,Documentation,Documentation,chaos/res-gf-allresolvers.json
+grafana,P0048,T09,4,retext-sibling,class,llm-claude-sonnet-4-6,success,dom-healer,2583,Documentation,Documentation,chaos/res-gf-allresolvers.json
+grafana,P0049,T09,5,attr-reorder-minify,class,llm-claude-sonnet-4-6,success,dom-healer,2473,Documentation,Documentation,chaos/res-gf-allresolvers.json
+grafana,P0050,T10,1,rename-class,class,llm-claude-sonnet-4-6,success,dom-healer,3053,Remove this panel,Remove this panel,chaos/res-gf-allresolvers.json
+grafana,P0051,T10,2,rename-id-testid,class,llm-claude-sonnet-4-6,success,dom-healer,2848,Remove this panel,Remove this panel,chaos/res-gf-allresolvers.json
+grafana,P0052,T10,3,restructure-dom,class,llm-claude-sonnet-4-6,success,dom-healer,4063,Remove this panel,Remove this panel,chaos/res-gf-allresolvers.json
+grafana,P0053,T10,4,retext-sibling,class,llm-claude-sonnet-4-6,success,dom-healer,4354,Remove this panel,Remove this panel,chaos/res-gf-allresolvers.json
+grafana,P0054,T10,5,attr-reorder-minify,class,llm-claude-sonnet-4-6,success,dom-healer,5239,Remove this panel,Remove this panel,chaos/res-gf-allresolvers.json
+grafana,P0055,T11,1,rename-class,class,llm-claude-sonnet-4-6,success,dom-healer,3337,,,chaos/res-gf-allresolvers.json
+grafana,P0056,T11,2,rename-id-testid,class,llm-claude-sonnet-4-6,success,dom-healer,4253,,,chaos/res-gf-allresolvers.json
+grafana,P0057,T11,3,restructure-dom,class,llm-claude-sonnet-4-6,success,dom-healer,2623,,,chaos/res-gf-allresolvers.json
+grafana,P0058,T11,4,retext-sibling,class,llm-claude-sonnet-4-6,success,dom-healer,3630,,,chaos/res-gf-allresolvers.json
+grafana,P0059,T11,5,attr-reorder-minify,class,llm-claude-sonnet-4-6,false-heal,dom-healer,2419,,Home,chaos/res-gf-allresolvers.json
+grafana,P0060,T12,1,rename-class,test-id,llm-claude-sonnet-4-6,success,dom-healer,2790,,,chaos/res-gf-allresolvers.json
+grafana,P0061,T12,2,rename-id-testid,test-id,llm-claude-sonnet-4-6,success,dom-healer,5498,,,chaos/res-gf-allresolvers.json
+grafana,P0062,T12,3,restructure-dom,test-id,llm-claude-sonnet-4-6,success,dom-healer,3205,,,chaos/res-gf-allresolvers.json
+grafana,P0063,T12,4,retext-sibling,test-id,llm-claude-sonnet-4-6,success,dom-healer,2714,,,chaos/res-gf-allresolvers.json
+grafana,P0064,T12,5,attr-reorder-minify,test-id,llm-claude-sonnet-4-6,success,dom-healer,7952,,,chaos/res-gf-allresolvers.json
+grafana,P0065,T13,1,rename-class,test-id,llm-claude-sonnet-4-6,false-heal,dom-healer,2846,,"Latest from the blog May 12 AI-assisted testing, extensions updates, and more: k",chaos/res-gf-allresolvers.json
+grafana,P0066,T13,2,rename-id-testid,test-id,llm-claude-sonnet-4-6,false-heal,dom-healer,3166,,"Latest from the blog May 12 AI-assisted testing, extensions updates, and more: k",chaos/res-gf-allresolvers.json
+grafana,P0067,T13,3,restructure-dom,test-id,llm-claude-sonnet-4-6,false-heal,dom-healer,4005,,"Latest from the blog May 12 AI-assisted testing, extensions updates, and more: k",chaos/res-gf-allresolvers.json
+grafana,P0068,T13,4,retext-sibling,test-id,llm-claude-sonnet-4-6,false-heal,dom-healer,3307,,"Latest from the blog xfoj9xn xfoj9xn May 12 AI-assisted testing, extensions upda",chaos/res-gf-allresolvers.json
+grafana,P0069,T13,5,attr-reorder-minify,test-id,llm-claude-sonnet-4-6,false-heal,dom-healer,2724,,"Latest from the blog May 12 AI-assisted testing, extensions updates, and more: k",chaos/res-gf-allresolvers.json
+grafana,P0070,T14,1,rename-class,test-id,llm-claude-sonnet-4-6,miss,dom-healer-none,6703,,,chaos/res-gf-allresolvers.json
+grafana,P0071,T14,2,rename-id-testid,test-id,llm-claude-sonnet-4-6,false-heal,dom-healer,2647,,Home,chaos/res-gf-allresolvers.json
+grafana,P0072,T14,3,restructure-dom,test-id,llm-claude-sonnet-4-6,false-heal,dom-healer,2716,,Home  Starred  Dashboards  Explore  Drilldown  Alerting  Connections  Administra,chaos/res-gf-allresolvers.json
+grafana,P0073,T14,4,retext-sibling,test-id,llm-claude-sonnet-4-6,false-heal,dom-healer,2794,,Home  Starred  Dashboards  Explore  Drilldown  Alerting  Connections  Administra,chaos/res-gf-allresolvers.json
+grafana,P0074,T14,5,attr-reorder-minify,test-id,llm-claude-sonnet-4-6,false-heal,dom-healer,2251,,Home,chaos/res-gf-allresolvers.json
+grafana,P0075,T15,1,rename-class,test-id,llm-claude-sonnet-4-6,false-heal,dom-healer,4237,,Home  Starred  Dashboards  Explore  Drilldown  Alerting  Connections  Administra,chaos/res-gf-allresolvers.json
+grafana,P0076,T15,2,rename-id-testid,test-id,llm-claude-sonnet-4-6,false-heal,dom-healer,3977,,Home  Starred  Dashboards  Explore  Drilldown  Alerting  Connections  Administra,chaos/res-gf-allresolvers.json
+grafana,P0077,T15,3,restructure-dom,test-id,llm-claude-sonnet-4-6,false-heal,dom-healer,2956,,Home,chaos/res-gf-allresolvers.json
+grafana,P0078,T15,4,retext-sibling,test-id,llm-claude-sonnet-4-6,false-heal,dom-healer,3230,,Home,chaos/res-gf-allresolvers.json
+grafana,P0079,T15,5,attr-reorder-minify,test-id,llm-claude-sonnet-4-6,false-heal,dom-healer,2641,,Home  Starred  Dashboards  Explore  Drilldown  Alerting  Connections  Administra,chaos/res-gf-allresolvers.json
+grafana,P0000,T00,1,rename-class,id,llm-hermes3-8b,success,ollama-dom-healer,8370,,,chaos/res-gf-ollama.json
+grafana,P0001,T00,2,rename-id-testid,id,llm-hermes3-8b,success,ollama-dom-healer,325,,,chaos/res-gf-ollama.json
+grafana,P0002,T00,3,restructure-dom,id,llm-hermes3-8b,success,ollama-dom-healer,5372,,,chaos/res-gf-ollama.json
+grafana,P0003,T00,4,retext-sibling,id,llm-hermes3-8b,false-heal,ollama-dom-healer,5453,,,chaos/res-gf-ollama.json
+grafana,P0004,T00,5,attr-reorder-minify,id,llm-hermes3-8b,false-heal,ollama-dom-healer,5437,,,chaos/res-gf-ollama.json
+grafana,P0005,T01,1,rename-class,class,llm-hermes3-8b,success,ollama-dom-healer,5505,,,chaos/res-gf-ollama.json
+grafana,P0006,T01,2,rename-id-testid,class,llm-hermes3-8b,success,ollama-dom-healer,260,,,chaos/res-gf-ollama.json
+grafana,P0007,T01,3,restructure-dom,class,llm-hermes3-8b,success,ollama-dom-healer,5297,,,chaos/res-gf-ollama.json
+grafana,P0008,T01,4,retext-sibling,class,llm-hermes3-8b,success,ollama-dom-healer,5431,,,chaos/res-gf-ollama.json
+grafana,P0009,T01,5,attr-reorder-minify,class,llm-hermes3-8b,false-heal,ollama-dom-healer,5511,,Home,chaos/res-gf-ollama.json
+grafana,P0010,T02,1,rename-class,test-id,llm-hermes3-8b,success,ollama-dom-healer,5598,Home,Home,chaos/res-gf-ollama.json
+grafana,P0011,T02,2,rename-id-testid,test-id,llm-hermes3-8b,success,ollama-dom-healer,259,Home,Home,chaos/res-gf-ollama.json
+grafana,P0012,T02,3,restructure-dom,test-id,llm-hermes3-8b,success,ollama-dom-healer,334,Home,Home,chaos/res-gf-ollama.json
+grafana,P0013,T02,4,retext-sibling,test-id,llm-hermes3-8b,success,ollama-dom-healer,268,Home,Home,chaos/res-gf-ollama.json
+grafana,P0014,T02,5,attr-reorder-minify,test-id,llm-hermes3-8b,success,ollama-dom-healer,257,Home,Home,chaos/res-gf-ollama.json
+grafana,P0015,T03,1,rename-class,class,llm-hermes3-8b,success,ollama-dom-healer,5507,,,chaos/res-gf-ollama.json
+grafana,P0016,T03,2,rename-id-testid,class,llm-hermes3-8b,success,ollama-dom-healer,252,,,chaos/res-gf-ollama.json
+grafana,P0017,T03,3,restructure-dom,class,llm-hermes3-8b,success,ollama-dom-healer,220,,,chaos/res-gf-ollama.json
+grafana,P0018,T03,4,retext-sibling,class,llm-hermes3-8b,success,ollama-dom-healer,251,,,chaos/res-gf-ollama.json
+grafana,P0019,T03,5,attr-reorder-minify,class,llm-hermes3-8b,false-heal,ollama-dom-healer,4754,,Starred,chaos/res-gf-ollama.json
+grafana,P0020,T04,1,rename-class,test-id,llm-hermes3-8b,false-heal,ollama-dom-healer,5510,Dashboards,Dashboards,chaos/res-gf-ollama.json
+grafana,P0021,T04,2,rename-id-testid,test-id,llm-hermes3-8b,false-heal,ollama-dom-healer,258,Dashboards,Dashboards,chaos/res-gf-ollama.json
+grafana,P0022,T04,3,restructure-dom,test-id,llm-hermes3-8b,false-heal,ollama-dom-healer,256,Dashboards,Dashboards,chaos/res-gf-ollama.json
+grafana,P0023,T04,4,retext-sibling,test-id,llm-hermes3-8b,false-heal,ollama-dom-healer,266,Dashboards,Dashboards,chaos/res-gf-ollama.json
+grafana,P0024,T04,5,attr-reorder-minify,test-id,llm-hermes3-8b,false-heal,ollama-dom-healer,3420,Dashboards,Dashboards,chaos/res-gf-ollama.json
+grafana,P0025,T05,1,rename-class,class,llm-hermes3-8b,success,ollama-dom-healer,5453,Search...,Search...,chaos/res-gf-ollama.json
+grafana,P0026,T05,2,rename-id-testid,class,llm-hermes3-8b,success,ollama-dom-healer,228,Search...,Search...,chaos/res-gf-ollama.json
+grafana,P0027,T05,3,restructure-dom,class,llm-hermes3-8b,success,ollama-dom-healer,3271,Search...,Search...,chaos/res-gf-ollama.json
+grafana,P0028,T05,4,retext-sibling,class,llm-hermes3-8b,success,ollama-dom-healer,3282,Search...,Search...,chaos/res-gf-ollama.json
+grafana,P0029,T05,5,attr-reorder-minify,class,llm-hermes3-8b,success,ollama-dom-healer,243,Search...,Search...,chaos/res-gf-ollama.json
+grafana,P0030,T06,1,rename-class,class,llm-hermes3-8b,false-heal,ollama-dom-healer,5446,,,chaos/res-gf-ollama.json
+grafana,P0031,T06,2,rename-id-testid,class,llm-hermes3-8b,false-heal,ollama-dom-healer,208,,,chaos/res-gf-ollama.json
+grafana,P0032,T06,3,restructure-dom,class,llm-hermes3-8b,false-heal,ollama-dom-healer,3268,,,chaos/res-gf-ollama.json
+grafana,P0033,T06,4,retext-sibling,class,llm-hermes3-8b,false-heal,ollama-dom-healer,3293,,,chaos/res-gf-ollama.json
+grafana,P0034,T06,5,attr-reorder-minify,class,llm-hermes3-8b,false-heal,ollama-dom-healer,3209,,"Latest from the blog May 12 AI-assisted testing, extensions updates, and more: k",chaos/res-gf-ollama.json
+grafana,P0035,T07,1,rename-class,class,llm-hermes3-8b,success,ollama-dom-healer,5445,Sign in,Sign in,chaos/res-gf-ollama.json
+grafana,P0036,T07,2,rename-id-testid,class,llm-hermes3-8b,success,ollama-dom-healer,212,Sign in,Sign in,chaos/res-gf-ollama.json
+grafana,P0037,T07,3,restructure-dom,class,llm-hermes3-8b,success,ollama-dom-healer,2927,Sign in,Sign in,chaos/res-gf-ollama.json
+grafana,P0038,T07,4,retext-sibling,class,llm-hermes3-8b,success,ollama-dom-healer,3281,Sign in,Sign in,chaos/res-gf-ollama.json
+grafana,P0039,T07,5,attr-reorder-minify,class,llm-hermes3-8b,success,ollama-dom-healer,3213,Sign in,Sign in,chaos/res-gf-ollama.json
+grafana,P0040,T08,1,rename-class,test-id,llm-hermes3-8b,false-heal,ollama-dom-healer,5460,,,chaos/res-gf-ollama.json
+grafana,P0041,T08,2,rename-id-testid,test-id,llm-hermes3-8b,false-heal,ollama-dom-healer,213,,,chaos/res-gf-ollama.json
+grafana,P0042,T08,3,restructure-dom,test-id,llm-hermes3-8b,false-heal,ollama-dom-healer,212,,,chaos/res-gf-ollama.json
+grafana,P0043,T08,4,retext-sibling,test-id,llm-hermes3-8b,false-heal,ollama-dom-healer,201,,,chaos/res-gf-ollama.json
+grafana,P0044,T08,5,attr-reorder-minify,test-id,llm-hermes3-8b,false-heal,ollama-dom-healer,2543,,,chaos/res-gf-ollama.json
+grafana,P0045,T09,1,rename-class,class,llm-hermes3-8b,success,ollama-dom-healer,5462,Documentation,Documentation,chaos/res-gf-ollama.json
+grafana,P0046,T09,2,rename-id-testid,class,llm-hermes3-8b,success,ollama-dom-healer,207,Documentation,Documentation,chaos/res-gf-ollama.json
+grafana,P0047,T09,3,restructure-dom,class,llm-hermes3-8b,success,ollama-dom-healer,2407,Documentation,Documentation,chaos/res-gf-ollama.json
+grafana,P0048,T09,4,retext-sibling,class,llm-hermes3-8b,success,ollama-dom-healer,2425,Documentation,Documentation,chaos/res-gf-ollama.json
+grafana,P0049,T09,5,attr-reorder-minify,class,llm-hermes3-8b,success,ollama-dom-healer,211,Documentation,Documentation,chaos/res-gf-ollama.json
+grafana,P0050,T10,1,rename-class,class,llm-hermes3-8b,success,ollama-dom-healer,5410,Remove this panel,Remove this panel,chaos/res-gf-ollama.json
+grafana,P0051,T10,2,rename-id-testid,class,llm-hermes3-8b,success,ollama-dom-healer,212,Remove this panel,Remove this panel,chaos/res-gf-ollama.json
+grafana,P0052,T10,3,restructure-dom,class,llm-hermes3-8b,success,ollama-dom-healer,1607,Remove this panel,Remove this panel,chaos/res-gf-ollama.json
+grafana,P0053,T10,4,retext-sibling,class,llm-hermes3-8b,success,ollama-dom-healer,1671,Remove this panel,Remove this panel,chaos/res-gf-ollama.json
+grafana,P0054,T10,5,attr-reorder-minify,class,llm-hermes3-8b,success,ollama-dom-healer,214,Remove this panel,Remove this panel,chaos/res-gf-ollama.json
+grafana,P0055,T11,1,rename-class,class,llm-hermes3-8b,success,ollama-dom-healer,5417,,,chaos/res-gf-ollama.json
+grafana,P0056,T11,2,rename-id-testid,class,llm-hermes3-8b,success,ollama-dom-healer,213,,,chaos/res-gf-ollama.json
+grafana,P0057,T11,3,restructure-dom,class,llm-hermes3-8b,success,ollama-dom-healer,904,,,chaos/res-gf-ollama.json
+grafana,P0058,T11,4,retext-sibling,class,llm-hermes3-8b,success,ollama-dom-healer,921,,,chaos/res-gf-ollama.json
+grafana,P0059,T11,5,attr-reorder-minify,class,llm-hermes3-8b,false-heal,ollama-dom-healer,978,,Alerting,chaos/res-gf-ollama.json
+grafana,P0060,T12,1,rename-class,test-id,llm-hermes3-8b,success,ollama-dom-healer,5425,,,chaos/res-gf-ollama.json
+grafana,P0061,T12,2,rename-id-testid,test-id,llm-hermes3-8b,success,ollama-dom-healer,268,,,chaos/res-gf-ollama.json
+grafana,P0062,T12,3,restructure-dom,test-id,llm-hermes3-8b,success,ollama-dom-healer,671,,,chaos/res-gf-ollama.json
+grafana,P0063,T12,4,retext-sibling,test-id,llm-hermes3-8b,success,ollama-dom-healer,839,,,chaos/res-gf-ollama.json
+grafana,P0064,T12,5,attr-reorder-minify,test-id,llm-hermes3-8b,false-heal,ollama-dom-healer,789,,Search...,chaos/res-gf-ollama.json
+grafana,P0065,T13,1,rename-class,test-id,llm-hermes3-8b,false-heal,ollama-dom-healer,5464,,,chaos/res-gf-ollama.json
+grafana,P0066,T13,2,rename-id-testid,test-id,llm-hermes3-8b,false-heal,ollama-dom-healer,211,,,chaos/res-gf-ollama.json
+grafana,P0067,T13,3,restructure-dom,test-id,llm-hermes3-8b,false-heal,ollama-dom-healer,204,,,chaos/res-gf-ollama.json
+grafana,P0068,T13,4,retext-sibling,test-id,llm-hermes3-8b,false-heal,ollama-dom-healer,488,,"Latest from the blog xhcqjrq xhcqjrq May 12 AI-assisted testing, extensions upda",chaos/res-gf-ollama.json
+grafana,P0069,T13,5,attr-reorder-minify,test-id,llm-hermes3-8b,false-heal,ollama-dom-healer,332,,,chaos/res-gf-ollama.json
+grafana,P0070,T14,1,rename-class,test-id,llm-hermes3-8b,false-heal,ollama-dom-healer,5459,,Home,chaos/res-gf-ollama.json
+grafana,P0071,T14,2,rename-id-testid,test-id,llm-hermes3-8b,false-heal,ollama-dom-healer,254,,Home,chaos/res-gf-ollama.json
+grafana,P0072,T14,3,restructure-dom,test-id,llm-hermes3-8b,false-heal,ollama-dom-healer,260,,Home,chaos/res-gf-ollama.json
+grafana,P0073,T14,4,retext-sibling,test-id,llm-hermes3-8b,false-heal,ollama-dom-healer,250,,Home,chaos/res-gf-ollama.json
+grafana,P0074,T14,5,attr-reorder-minify,test-id,llm-hermes3-8b,false-heal,ollama-dom-healer,259,,Home,chaos/res-gf-ollama.json
+grafana,P0075,T15,1,rename-class,test-id,llm-hermes3-8b,false-heal,ollama-dom-healer,5422,,,chaos/res-gf-ollama.json
+grafana,P0076,T15,2,rename-id-testid,test-id,llm-hermes3-8b,false-heal,ollama-dom-healer,209,,,chaos/res-gf-ollama.json
+grafana,P0077,T15,3,restructure-dom,test-id,llm-hermes3-8b,false-heal,ollama-dom-healer,210,,,chaos/res-gf-ollama.json
+grafana,P0078,T15,4,retext-sibling,test-id,llm-hermes3-8b,false-heal,ollama-dom-healer,205,,,chaos/res-gf-ollama.json
+grafana,P0079,T15,5,attr-reorder-minify,test-id,llm-hermes3-8b,false-heal,ollama-dom-healer,228,,,chaos/res-gf-ollama.json
