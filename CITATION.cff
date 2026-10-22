@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+title: "LocatorBreak: broken web locators with an identity oracle, resolver outcomes, and locator edits mined from seven end-to-end test histories"
+message: "If you use this dataset, please cite it as below."
+type: dataset
+authors:
+  - family-names: Malhotra
+    given-names: Suneet
+    orcid: "https://orcid.org/0009-0003-8707-9590"
+license: CC-BY-4.0
+version: "1.0.0"
+repository-code: "https://github.com/SuneetMalhotra/locatorbreak"
+url: "https://github.com/SuneetMalhotra/locatorbreak"
+date-released: "2026-10-22"
+keywords:
+  - web testing
+  - locators
+  - self-healing tests
+  - test oracles
+  - mining software repositories
+  - dataset
+references:
+  - type: article
+    authors:
+      - family-names: Malhotra
+        given-names: Suneet
+    title: "LLM Self-Healing of Web Locators as Assisted Triage: An Adversarial Benchmark, Deployment Lessons, and an Unconfirmed Cross-Layer Observability Blueprint"
+    journal: "Journal of Systems and Software"
+    year: 2026
+    doi: "10.1016/j.jss.2026.113157"
