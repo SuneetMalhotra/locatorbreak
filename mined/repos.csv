@@ -1,0 +1,8 @@
+repo,url,snapshot_commit,mined_paths,since,license_note
+grafana,https://github.com/grafana/grafana,e40de7898e1c33ae084f9b6ad77bbb67618834c8,"e2e-playwright e2e packages/grafana-e2e-selectors/src",2023-01-01,AGPL-3.0
+supabase,https://github.com/supabase/supabase,b7638a72447b6e1513c899e65339b8d43d078b59,"e2e/studio apps/studio/tests apps/studio/e2e",2023-01-01,Apache-2.0
+cal.com,https://github.com/calcom/cal.com,0f19cc46ef6b6426ee398c670575b3c96be7af9e,"apps/web/playwright",2023-01-01,AGPL-3.0 (see repo)
+saleor-dashboard,https://github.com/saleor/saleor-dashboard,77dc49bcfa3b062b479ad54e32fe6e102b7979ba,"playwright e2e e2e-legacy",2023-01-01,BSD-3-Clause
+mattermost,https://github.com/mattermost/mattermost,5a5cbfc306bb943ae8a6a9bb2f5cac85474d7189,"e2e-tests e2e",2023-01-01,see repo (mixed)
+n8n,https://github.com/n8n-io/n8n,58f11bf0cf5e384efa7f6818fc940ff5ed8200a9,"cypress packages/testing packages/quality",2023-01-01,Sustainable Use License (see repo)
+element-web,https://github.com/element-hq/element-web,314f3662ca742516be1e550737bc60e1ba03056e,"playwright cypress apps/web/playwright",2023-01-01,AGPL-3.0 / GPL-3.0 (see repo)

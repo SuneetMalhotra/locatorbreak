@@ -1,0 +1,97 @@
+edit_id,repo,commit,old,new,category,reviewer_same_target,reviewer_category,agrees,note,sample
+E0026,grafana,d88006b4e76d60b9fce12b8416ee0b834b3a4c45,Hidden,Above dashboard,accessible-name-text-change,N,,N,option label changed; may be a different option,stratified-10-per-repo
+E0117,grafana,b7c74a1af61d6fda5a3eba48dbfc8e0ff97dbc1b,Alert editor tab content,data-testid Alert editor tab content,strategy-migration,Y,strategy-migration,Y,,stratified-10-per-repo
+E0019,grafana,d1e243ebe0dfe926c73c3428652443f6a3697d9c,Logs Table Show copy log link button field property editor,data-testid Logs Table Show copy log link button field property editor,strategy-migration,Y,strategy-migration,Y,,stratified-10-per-repo
+E0003,grafana,bfbda61f56e8c3c04552e00e7f57048238121197,.rdg,".rdg:not([aria-hidden=""true""])",attribute-role-change,Y,structure-change,N,refinement of the same selector,stratified-10-per-repo
+E0081,grafana,a9f17a3f247a104f5de69692d06d5c7b9715331c,Variable editor Form Default Variable Query Editor textarea,data-testid Variable editor Form Default Variable Query Editor textarea,strategy-migration,Y,strategy-migration,Y,,stratified-10-per-repo
+E0102,grafana,54dc5846c2451c9279c0a7f29d50e2b0c709397b,VizLegend series ${name},data-testid VizLegend series ${name},strategy-migration,Y,strategy-migration,Y,,stratified-10-per-repo
+E0045,grafana,67b22177a82bbab2f32a5f88912898dae16cea09,"label[for=""custom.inspect""]",switch|Cell value inspect,strategy-migration,Y,strategy-migration,Y,,stratified-10-per-repo
+E0101,grafana,54dc5846c2451c9279c0a7f29d50e2b0c709397b,Pie Chart Slice,data testid Pie Chart Slice,attribute-role-change,Y,strategy-migration,N,aria-label to test-id,stratified-10-per-repo
+E0088,grafana,71b98163e52306c5da36b243bd74e74f634920a0,Datasource HTTP settings url,data-testid Datasource HTTP settings url,strategy-migration,Y,strategy-migration,Y,,stratified-10-per-repo
+E0044,grafana,67b22177a82bbab2f32a5f88912898dae16cea09,#transparent-background,switch|Transparent background,strategy-migration,Y,strategy-migration,Y,,stratified-10-per-repo
+E0182,supabase,718021fc7b772e38c214ede111e60029f5210700,menuitem|id int8,option|id int8,attribute-role-change,Y,attribute-role-change,Y,,stratified-10-per-repo
+E0183,supabase,19a6fc90ac4536782442b769f11970d7ba73e90f,button|Download Schema,button|Export options,accessible-name-text-change,Y,accessible-name-text-change,Y,,stratified-10-per-repo
+E0156,supabase,0bf22ee6fc95e114452a3634e8141e0cab6e0a95,You need additional permissions to view this project's workers,You need additional permissions to view this project's compute instances,accessible-name-text-change,Y,accessible-name-text-change,Y,,stratified-10-per-repo
+E0190,supabase,19aea11aa9dc51580141a11b65ca58d8cd6c53ff,button|Revert,button|Cancel,accessible-name-text-change,Y,accessible-name-text-change,Y,,stratified-10-per-repo
+E0185,supabase,64c37ca72b409d00c64fa85cf4e3372833083f80,link|3 columns,link|View columns,accessible-name-text-change,Y,accessible-name-text-change,Y,,stratified-10-per-repo
+E0155,supabase,0bf22ee6fc95e114452a3634e8141e0cab6e0a95,Deploy your first worker,Deploy your first Compute instance,accessible-name-text-change,Y,accessible-name-text-change,Y,,stratified-10-per-repo
+E0179,supabase,7f8ae81d64cdd2a5a33050ab7943747e5d71cfab,menuitem|Insert row Insert a new row,menuitem|Insert row,accessible-name-text-change,Y,accessible-name-text-change,Y,,stratified-10-per-repo
+E0214,supabase,25abebc32e75cde1fa23d3be407a8c0613327cfe,Successfully removed ${databaseFunctionName},Successfully removed function ${databaseFunctionName},accessible-name-text-change,Y,accessible-name-text-change,Y,,stratified-10-per-repo
+E0201,supabase,4651480f28f0939b7fad339e91045575e76ad5df,Drop your CSV file here,This table is empty,accessible-name-text-change,Y,accessible-name-text-change,Y,,stratified-10-per-repo
+E0211,supabase,22cfd2be145cdfb1123850d2d714bed96f2f615c,Password,"input[type=""password""]",strategy-migration,Y,strategy-migration,Y,,stratified-10-per-repo
+E0250,cal.com,5d9c7bfde98b02024a997641bd9e1b668f10eac4,filter-popover-trigger-dateRange,date-range-options-t,id-testid-rename,Y,id-testid-rename,Y,,stratified-10-per-repo
+E0241,cal.com,f8ede75dd8e275224fbf38f79009e26a9661ac5e,button|Delete,"[role=""dialog""]",strategy-migration,N,,N,different element (dialog),stratified-10-per-repo
+E0264,cal.com,ebd5ca6cebefdd90baae7b0ce2a398978beb639a,team_username_select,team_username_select_${userTo.id},id-testid-rename,Y,id-testid-rename,Y,,stratified-10-per-repo
+E0265,cal.com,ebd5ca6cebefdd90baae7b0ce2a398978beb639a,team_username_select,team_username_select_${userToSecond.id},id-testid-rename,Y,id-testid-rename,Y,,stratified-10-per-repo
+E0249,cal.com,5d9c7bfde98b02024a997641bd9e1b668f10eac4,add-filter-button,add-filter-item-dateRange,id-testid-rename,N,,N,different element,stratified-10-per-repo
+E0271,cal.com,b560475d89b5c0dd56a5bac035be0febc38e3a57,#react-select-2-option-0,select-option-ar,strategy-migration,Y,strategy-migration,Y,,stratified-10-per-repo
+E0279,cal.com,c4104af8a211f9cba3cd461422614b799a90829e,button|,go-back-button,strategy-migration,Y,strategy-migration,Y,,stratified-10-per-repo
+E0269,cal.com,8722745185842c06fc17c38df68501a214a0228d,#react-select-2-option-81,select-option-mxn,strategy-migration,Y,strategy-migration,Y,,stratified-10-per-repo
+E0280,cal.com,c4104af8a211f9cba3cd461422614b799a90829e,Select...,multi-select-check-boxes,strategy-migration,Y,strategy-migration,Y,,stratified-10-per-repo
+E0329,saleor-dashboard,fbfc969ffcc15820dcf2af8f97c6e43b5f99b52d,input,button,other,N,,N,,stratified-10-per-repo
+E0341,saleor-dashboard,dfb19e5e2df85fe352d71998bc02db54b58752d5,multi-autocomplete-select-option,select-option,id-testid-rename,Y,id-testid-rename,Y,,stratified-10-per-repo
+E0343,saleor-dashboard,172bbe089bf6e0912fb09454e3bec178aac50ec6,condition-name-${index},option|,strategy-migration,N,,N,,stratified-10-per-repo
+E0328,saleor-dashboard,ba829086e04c726d8968edac00d55b54186acdbc,apps-installed,extensions-installed,id-testid-rename,Y,id-testid-rename,Y,,stratified-10-per-repo
+E0337,saleor-dashboard,1c66453f225131bfea43e33f17df6039000e40eb,"[id=""mui-component-select-entityType""]",attribute-entity-type-select,strategy-migration,Y,strategy-migration,Y,,stratified-10-per-repo
+E0321,saleor-dashboard,761e4b925030d780e267a92e500ae164be6368c7,product-row,assign-product-table-row,id-testid-rename,Y,id-testid-rename,Y,,stratified-10-per-repo
+E0324,saleor-dashboard,44cb7ea6c3eea3cf8b7c6308e861af36a327a367,Mark as Paid,mark-as-paid-button,strategy-migration,Y,strategy-migration,Y,,stratified-10-per-repo
+E0319,saleor-dashboard,bd32cb2dea845e12dde98a18a734d53f070cb6e6,button-bar-delete,delete-product,id-testid-rename,Y,id-testid-rename,Y,,stratified-10-per-repo
+E0342,saleor-dashboard,a6ed4570f0c562b70fa6e20ff3076327337d5b47,input[value='FILTER'],FILTER,strategy-migration,Y,strategy-migration,Y,,stratified-10-per-repo
+E0333,saleor-dashboard,a2a6e1264d174347325ad40620f4c2c8280defab,input,button,other,N,,N,,stratified-10-per-repo
+E0476,mattermost,8fa7e72a6ed2d796db9f63243f1d29635b26dd9c,.AdminUserCard,adminUserCard,strategy-migration,Y,strategy-migration,Y,,stratified-10-per-repo
+E0612,mattermost,502506a5171b03381d49dcb52985d8d498cce8fc,#viewMembers,#sidebarTeamMenu li:contains('View members'),structure-change,Y,structure-change,Y,,stratified-10-per-repo
+E0396,mattermost,8fa7e72a6ed2d796db9f63243f1d29635b26dd9c,.post__img,draft-post-img,strategy-migration,Y,strategy-migration,Y,,stratified-10-per-repo
+E0484,mattermost,8fa7e72a6ed2d796db9f63243f1d29635b26dd9c,"input[type=""password""]",New password,strategy-migration,Y,strategy-migration,Y,,stratified-10-per-repo
+E0556,mattermost,8f9b08f07b23420d58f675f59ddbd56258a81d83,#channelBookmarksPlusMenuButton,#channelBookmarksBarMenuButton,id-testid-rename,Y,id-testid-rename,Y,,stratified-10-per-repo
+E0541,mattermost,1c801690a06a39ad5ad467a621196c19229295bb,.attachment-actions > :nth-child(1) input,.mm-blocks-container--flow-horizontal > :nth-child(1) input,class-rename,Y,class-rename,Y,,stratified-10-per-repo
+E0634,mattermost,b6118b770181ca9e4dbf01a11c1f638c28fcce35,#channelHeaderInfo,body,attribute-role-change,N,,N,,stratified-10-per-repo
+E0391,mattermost,8fa7e72a6ed2d796db9f63243f1d29635b26dd9c,.more-modal__list,more-modal-list,strategy-migration,Y,strategy-migration,Y,,stratified-10-per-repo
+E0483,mattermost,8fa7e72a6ed2d796db9f63243f1d29635b26dd9c,.adminConsoleListTabletOptionalFoot,listTableFoot,strategy-migration,Y,strategy-migration,Y,,stratified-10-per-repo
+E0724,n8n,5807183432f8d0cfdac569a586ee62aa02c24477,menuitem|AI Assistant,menuitem|n8n Assistant,accessible-name-text-change,Y,accessible-name-text-change,Y,,stratified-10-per-repo
+E0725,n8n,5807183432f8d0cfdac569a586ee62aa02c24477,dialog|Set up AI Assistant,dialog|Set up n8n Assistant,accessible-name-text-change,Y,accessible-name-text-change,Y,,stratified-10-per-repo
+E0816,n8n,6e2aa405fcdff3f9b1f75d9e22719f6c0c500aa9,input,.cm-content,class-rename,Y,class-rename,Y,,stratified-10-per-repo
+E0796,n8n,17738c50962d25ac34c8fd0248bd2b2e0863b429,"input[name=""email""]","input[name=""emailOrLdapLoginId""]",attribute-role-change,Y,attribute-role-change,Y,,stratified-10-per-repo
+E0792,n8n,022f4755c2fe34a5ff446bfa7acb1e5324104740,run-data-schema-node,run-data-schema-header,id-testid-rename,Y,id-testid-rename,Y,,stratified-10-per-repo
+E0786,n8n,ed2cb3c70198c8212d83606cb27de6cf6132526b,.fa-sync-alt,svg[data-icon=refresh-cw],attribute-role-change,Y,attribute-role-change,Y,,stratified-10-per-repo
+E0809,n8n,136d49132567558b7d27069c857c0e0bfee70ce2,"button:contains(""Next"")","button:contains(""Move credential"")",other,Y,accessible-name-text-change,N,button text changed,stratified-10-per-repo
+E0812,n8n,596c472ecc756bf934c51e7efae0075fb23313b4,user-email,project-sharing-info,id-testid-rename,N,,N,,stratified-10-per-repo
+E0779,n8n,19ac32659fdf4ad179d1385516185223c0b551c4,".n8n-badge:contains(""Owner"")","td:contains(""Owner"")",attribute-role-change,Y,attribute-role-change,Y,,stratified-10-per-repo
+E1044,element-web,c1a163cbc9dd68c85505058dd47a6d1ef700ebc1,textarea,Recovery key,strategy-migration,Y,strategy-migration,Y,,stratified-10-per-repo
+E0867,element-web,4ab6b14ce99260d6b05ec2a0ef3a114c1e05a218,option|,button|,attribute-role-change,Y,attribute-role-change,Y,,stratified-10-per-repo
+E1081,element-web,0f8a2e93ce4924ac00544af323296711f7e5058a,.mx_EventTile[data-layout=group] .mx_ReactionsRow,.mx_EventTile[data-layout=group] .mx_EventTile_footer,attribute-role-change,N,,N,,stratified-10-per-repo
+E0947,element-web,4a3cf3e69d077d5bd363a68b8c7c7733ffc9dbd8,.mx_RoomInfoLine_private,.mx_RoomInfoLine,class-rename,Y,class-rename,Y,,stratified-10-per-repo
+E0941,element-web,e07e26cae5a24ea62b7c81dcf2817d20ff07c940,.mx_VerificationShowSas_emojiSas_block,.mx_VerificationShowSas_emojiSas > div,structure-change,Y,structure-change,Y,,stratified-10-per-repo
+E0851,element-web,6eabcfb9014527522b5f799d280863522adc5586,button|New conversation,Room options,strategy-migration,N,,N,,stratified-10-per-repo
+E0985,element-web,3432613195296499746a2281d84792e1d6b49512,treeitem|Apple,option|Open room Apple,attribute-role-change,Y,attribute-role-change,Y,,stratified-10-per-repo
+E1131,element-web,281916fd96d6cf502f0760851e7b8a851c8a6aa8,button|Threads,threadsButton,strategy-migration,Y,strategy-migration,Y,,stratified-10-per-repo
+E1152,element-web,6ae7c033d572fcb37a191a7cf61634c85b8dbaf9,.mx_RoomHeader_nametext,.mx_LegacyRoomHeader_nametext,class-rename,Y,class-rename,Y,,stratified-10-per-repo
+E0366,mattermost,846df3d3f3e29375bad1342af0d194651239df82,Manage Attributes,Attribute Management,accessible-name-text-change,Y,accessible-name-text-change,Y,,targeted-accessible-name-30
+E0184,supabase,8939c97574b5b9443629766338f8f77d272ffbdb,menuitem|Copy as markdown,menuitem|Copy as Markdown,accessible-name-text-change,Y,accessible-name-text-change,Y,,targeted-accessible-name-30
+E0838,element-web,066518dfd7f514e329923de7d513f3726b82b887,heading|Invite new contacts to this room?,heading|Invite new contacts to this chat?,accessible-name-text-change,Y,accessible-name-text-change,Y,,targeted-accessible-name-30
+E1004,element-web,07c253d11f42c3bafbe310cf5ae7eac625ca0900,menuitem|New room,menuitem|,accessible-name-text-change,Y,accessible-name-text-change,Y,,targeted-accessible-name-30
+E0037,grafana,ca342afb255271491fb454973164d38a94e83fba,button|Close menu,button|Close,accessible-name-text-change,Y,accessible-name-text-change,Y,,targeted-accessible-name-30
+E0151,supabase,521881a899b6b4821125fa1b3b8f23112efffae5,textbox|Wrapper Name,textbox|Server Name,accessible-name-text-change,Y,accessible-name-text-change,Y,,targeted-accessible-name-30
+E0924,element-web,8a38a2fe4a4e74aceb9e1ae5e02e9d6a3159f784,button|Sign out,button|Remove this device,accessible-name-text-change,Y,accessible-name-text-change,Y,,targeted-accessible-name-30
+E0166,supabase,e19cd1863dd6560b0e473f1814ea45230245e6fb,U,Supabase,accessible-name-text-change,Y,accessible-name-text-change,Y,,targeted-accessible-name-30
+E0746,n8n,d05123d723b355f10e276705e6fc992038bf0d17,option|production,option|staging,accessible-name-text-change,N,,N,different option selected,targeted-accessible-name-30
+E0959,element-web,1415354f2af0d5e92c503dceb5de5394b47c5a9b,Almost there! Is your other device showing the same shield?,Confirm that you see a green shield on your other device,accessible-name-text-change,Y,accessible-name-text-change,Y,,targeted-accessible-name-30
+E0055,grafana,9cc6c596afc57d33fc1e0f2901bd35b74dd7422c,.gf-form-group,section,accessible-name-text-change,Y,structure-change,N,CSS selector string passed to a text locator,targeted-accessible-name-30
+E0915,element-web,4b4289e211c12ea0ebb885d570cfa6b7c29dac86,heading|Welcome to Element!,heading|Be in your element,accessible-name-text-change,Y,accessible-name-text-change,Y,,targeted-accessible-name-30
+E0209,supabase,3fdacb2cca95da4451e25657626845bbbf19e1eb,heading|Confirm to disable Row Level Security,heading|Disable Row Level Security,accessible-name-text-change,Y,accessible-name-text-change,Y,,targeted-accessible-name-30
+E0025,grafana,5f026b41e548ca28b9134d23241889a7b4769c5c,button|Open menu,button|Main menu,accessible-name-text-change,Y,accessible-name-text-change,Y,,targeted-accessible-name-30
+E0157,supabase,c33d255eba8ba9ff7c7a2a01a93dce80cb685708,heading|How can I assist you?,heading|Chat with your project,accessible-name-text-change,Y,accessible-name-text-change,Y,,targeted-accessible-name-30
+E0848,element-web,6e6f8d950268a8905bb3fdc4cf220572e6bec142,heading|Are you sure you want to reset your digital identity?,heading|Can't confirm? You’ll need to reset your digital identity.,accessible-name-text-change,Y,accessible-name-text-change,Y,,targeted-accessible-name-30
+E0844,element-web,066518dfd7f514e329923de7d513f3726b82b887,Unverified session,Unverified device,accessible-name-text-change,Y,accessible-name-text-change,Y,,targeted-accessible-name-30
+E0149,supabase,0cb8bd95dd6855bb2c4879639e9b0c751473cd3e,slider|Color intensity,slider|Surface tint,accessible-name-text-change,Y,accessible-name-text-change,Y,,targeted-accessible-name-30
+E0222,cal.com,ab21c7f805a089fa3a11ffd61c4a9aecc349c16c,heading|Cal.com,heading|Cal.diy,accessible-name-text-change,Y,accessible-name-text-change,Y,,targeted-accessible-name-30
+E0161,supabase,1cffe632e3e53e92a6bdc2dd030d180116f809ec,button|Add a new header,button|Add header,accessible-name-text-change,Y,accessible-name-text-change,Y,,targeted-accessible-name-30
+E0928,element-web,8a38a2fe4a4e74aceb9e1ae5e02e9d6a3159f784,Forgot your recovery key? You’ll need to reset your identity.,Forgot your recovery key? You’ll need to reset your digital identity.,accessible-name-text-change,Y,accessible-name-text-change,Y,,targeted-accessible-name-30
+E0845,element-web,066518dfd7f514e329923de7d513f3726b82b887,Session details,Device details,accessible-name-text-change,Y,accessible-name-text-change,Y,,targeted-accessible-name-30
+E0147,supabase,325a5a0da76191d5deba65aaefa5ebaedaf09ee9,button|Enable extension,button|Enable,accessible-name-text-change,Y,accessible-name-text-change,Y,,targeted-accessible-name-30
+E0939,element-web,00dd0c48bae0fa07a4417b49681c0d1533d42523,Private (invite only),Invite only,accessible-name-text-change,Y,accessible-name-text-change,Y,,targeted-accessible-name-30
+E0173,supabase,d745036c9e787aefb37e7aad7a5d496745611a0b,button|Choose a table,button|Select a table,accessible-name-text-change,Y,accessible-name-text-change,Y,,targeted-accessible-name-30
+E0215,supabase,25abebc32e75cde1fa23d3be407a8c0613327cfe,button|Confirm,button|Create function,accessible-name-text-change,Y,accessible-name-text-change,Y,,targeted-accessible-name-30
+E0999,element-web,9ad239f87f59f63102b69f67cacb2764cef51fc8,button|Verify with Recovery Key,button|Use recovery key,accessible-name-text-change,Y,accessible-name-text-change,Y,,targeted-accessible-name-30
+E0998,element-web,9ad239f87f59f63102b69f67cacb2764cef51fc8,button|Verify with Recovery Key or Phrase,button|Use recovery key,accessible-name-text-change,Y,accessible-name-text-change,Y,,targeted-accessible-name-30
+E1130,element-web,281916fd96d6cf502f0760851e7b8a851c8a6aa8,${otherRoomName} 4 unread messages.,${otherRoomName} 2 unread messages.,accessible-name-text-change,Y,other,N,"test data changed (unread count), not a UI label",targeted-accessible-name-30
+E1085,element-web,b16088d098993cf206686cf99f6dacb041940673,Sessions,Devices,accessible-name-text-change,Y,accessible-name-text-change,Y,,targeted-accessible-name-30
