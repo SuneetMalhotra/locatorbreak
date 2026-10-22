@@ -1,5 +1,7 @@
 # LocatorBreak
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23573997.svg)](https://doi.org/10.5281/zenodo.23573997)
+
 LocatorBreak is a dataset about broken web-UI locators. It has two parts that share one vocabulary of locator changes.
 
 1. **Controlled breaks with an identity oracle.** 180 locator breaks (36 target elements, 5 mutations each) on three public web applications: Supabase Studio, Grafana, and a small personal portfolio site. Each break records a description of the true target element that does not depend on any selector. For the 145 Supabase Studio and Grafana cases, `outcomes.csv` records what five resolvers returned, labeled against the identity oracle as `success`, `false-heal` (a different element was returned) or `miss` (nothing was returned): 645 rows, 601 of them scored. A further 65 rows (57 scored pairs) come from a paired prompt ablation.

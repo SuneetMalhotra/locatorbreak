@@ -10,6 +10,7 @@ license: CC-BY-4.0
 version: "1.0.0"
 repository-code: "https://github.com/SuneetMalhotra/locatorbreak"
 url: "https://github.com/SuneetMalhotra/locatorbreak"
+doi: "10.5281/zenodo.23573997"
 date-released: "2026-10-22"
 keywords:
   - web testing
